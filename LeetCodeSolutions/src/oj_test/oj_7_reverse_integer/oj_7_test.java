@@ -9,6 +9,7 @@ public class oj_7_test {
 		System.out.println(s.reverse(100));
 		System.out.println(s.reverse(0));
 		System.out.println(s.reverse(-300));
+		System.out.println(s.reverse(-123));
 		System.out.println(s.reverse(301));
 		System.out.println(s.reverse(1000000003));
 		System.out.println(s.reverse(40103));
