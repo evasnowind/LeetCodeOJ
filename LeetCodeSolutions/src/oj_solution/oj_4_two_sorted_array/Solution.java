@@ -1,4 +1,4 @@
-package oj_4_two_sorted_array;
+package oj_solution.oj_4_two_sorted_array;
 
 /**
  * 这道题实在有些难，参考了一下这帖子：http://blog.csdn.net/yutianzuijin/article/details/11499917

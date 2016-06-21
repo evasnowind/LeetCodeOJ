@@ -1,4 +1,4 @@
-package oj_2_add_two_num;
+package oj_solution.oj_2_add_two_num;
 
 public class ListNode {
 	int val;

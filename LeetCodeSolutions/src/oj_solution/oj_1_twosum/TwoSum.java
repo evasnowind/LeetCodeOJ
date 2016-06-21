@@ -1,4 +1,4 @@
-package oj_1_twosum;
+package oj_solution.oj_1_twosum;
 
 public class TwoSum {
 

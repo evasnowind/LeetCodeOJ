@@ -1,4 +1,4 @@
-package oj_7_reverse_integer;
+package oj_solution.oj_7_reverse_integer;
 
 public class Solution {
 	public int reverse(int x) {

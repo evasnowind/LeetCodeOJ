@@ -1,6 +1,6 @@
 package oj_test.oj_8_string_to_integer;
 
-import oj_8_string_to_integer.Solution;
+import oj_solution.oj_8_string_to_integer.Solution;
 
 public class OJ_8_Test {
 

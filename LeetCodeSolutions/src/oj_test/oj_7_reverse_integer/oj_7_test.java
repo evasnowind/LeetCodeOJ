@@ -4,7 +4,7 @@ public class oj_7_test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		oj_7_reverse_integer.Solution s = new oj_7_reverse_integer.Solution();
+		oj_solution.oj_7_reverse_integer.Solution s = new oj_solution.oj_7_reverse_integer.Solution();
 		System.out.println(s.reverse(34));
 		System.out.println(s.reverse(100));
 		System.out.println(s.reverse(0));

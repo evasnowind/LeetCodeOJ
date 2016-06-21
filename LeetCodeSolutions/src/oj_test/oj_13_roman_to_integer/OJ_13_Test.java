@@ -1,6 +1,6 @@
 package oj_test.oj_13_roman_to_integer;
 
-import oj_13_roman_to_integer.Solution;
+import oj_solution.oj_13_roman_to_integer.Solution;
 
 public class OJ_13_Test {
 

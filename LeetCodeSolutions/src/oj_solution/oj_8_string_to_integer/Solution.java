@@ -1,4 +1,4 @@
-package oj_8_string_to_integer;
+package oj_solution.oj_8_string_to_integer;
 
 public class Solution {
 	public int myAtoi(String s) {
