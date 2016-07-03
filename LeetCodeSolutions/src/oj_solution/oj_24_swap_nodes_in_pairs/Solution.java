@@ -9,6 +9,19 @@ package oj_solution.oj_24_swap_nodes_in_pairs;
  * }
  */
 public class Solution {
+	
+	/*
+	 * leetcode上另一种解法，但不符合常量存储空间的要求，该递归算法
+	 * 是将每2个节点作为一个处理单元，空间复杂度为O(n)
+	 public ListNode swapPairs(ListNode head) {
+        if ((head == null)||(head.next == null))
+            return head;
+        ListNode n = head.next;
+        head.next = swapPairs(head.next.next);
+        n.next = head;
+        return n;
+     }
+	 */
     public ListNode swapPairs(ListNode head) {
     	if(null == head || null == head.next) return head;
     	ListNode dummyNode = new ListNode(0);
