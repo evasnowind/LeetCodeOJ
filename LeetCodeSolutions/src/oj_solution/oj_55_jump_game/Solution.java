@@ -5,6 +5,9 @@ public class Solution {
 	 * 注意题目中说的是每个元素表示最大跳跃长度，
 	 * 并不是每次必须跳这么远，比如[2,0]，那么第一次
 	 * 只跳1步即可到达末尾，应返回true
+	 * 
+	 * 算法：每个元素都试验一下，每次都更新可以跳到的
+	 * 范围，如果范围没包括最后一个元素，就false
 	 */
 	public boolean canJump(int[] nums) {
 		if(null == nums || nums.length == 0) return false;
