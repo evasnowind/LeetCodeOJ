@@ -6,6 +6,9 @@ public class Solution {
 	 * 
 	 * n>2时是菲波那切数列，但递归算法会超时，因此需要采用非递归写法
 	 * 
+	 * 思路：基本算法题都要按照题目要求，自己走一遍，这道题很明显是递归思路，
+	 * 但递归写出后直接超时，然后就得思考如何优化（此处是没有记录中间结果，所以
+	 * 递归算起来慢，因此用空间换时间）
 	 * 
 	 */
 	public int climbStairs(int n) {
@@ -16,7 +19,6 @@ public class Solution {
 		} else if(2 == n) {
 			return 2;
 		} else {
-			int allWays = 0;
 			int [] tmpResult = new int[n];
 			tmpResult[0] = 1; 
 			tmpResult[1] = 2;
@@ -25,9 +27,6 @@ public class Solution {
 			}
 			return tmpResult[n-1];
 		}
-		
-		
-		
     }
 	
 	/*
