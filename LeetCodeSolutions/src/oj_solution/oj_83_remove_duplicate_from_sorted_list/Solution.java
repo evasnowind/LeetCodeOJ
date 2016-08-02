@@ -4,6 +4,15 @@ import oj_solution.oj_24_swap_nodes_in_pairs.ListNode;
 
 public class Solution {
 	/*
+	 * 另一种思路：用递归
+	 * https://discuss.leetcode.com/topic/14775/3-line-java-recursive-solution
+	public ListNode deleteDuplicates(ListNode head) {
+        if(head == null || head.next == null)return head;
+        head.next = deleteDuplicates(head.next);
+        return head.val == head.next.val ? head.next : head;
+	}
+	*/
+	/*
 	 * 简单到不能再简单的题目，链表中使用两个指针的思路很有用，多个算法题中会用到
 	 */
 	public ListNode deleteDuplicates(ListNode head) {
