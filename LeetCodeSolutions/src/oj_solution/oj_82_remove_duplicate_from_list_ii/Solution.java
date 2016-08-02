@@ -23,8 +23,7 @@ public class Solution {
 	/*
 	 * 基本思路：使用3个指针，一起往前遍历，分别记录相同元素起始前一节点、
 	 * 相同元素第一个节点、相同元素下一个节点，不断删除相同元素，如下
-	 * 
-	 * 
+	 * 注：下面代码还可以继续优化一下，没必要用3个指针
 	 */
 	public ListNode deleteDuplicates(ListNode head) {
 		if(head == null) return null;
