@@ -17,6 +17,7 @@ public class Solution {
 	 * 	（2）k 大于链表长度：快节点走了n步（链表长度）后，下个节点为null，则从head继续开始走，
 	 * 		直至走了k步，后续与（1）相同
 	 * 
+	 * 注：必须考虑k>链表长度的情况
 	 */
 	public ListNode rotateRight(ListNode head, int k) {
 		if(null == head) return head;
