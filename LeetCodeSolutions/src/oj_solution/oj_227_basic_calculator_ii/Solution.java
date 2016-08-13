@@ -6,6 +6,9 @@ public class Solution {
 	/*
 	 * 思路：用栈来保存计算中间结果，最后加到一起
 	 * 关键点：用一个标志位保存每个数字的符号位，这样在计算乘除法时第一个操作数已经在栈顶
+	 * 
+	 * 另一种思路：不用栈，直接算，参见 https://discuss.leetcode.com/topic/17435/java-straight-forward-iteration-solution-with-comments-no-stack-o-n-o-1/2
+	 * 
 	 */
 	public int calculate(String s) {
 		if(null == s || s.trim().equalsIgnoreCase("")) return 0;
