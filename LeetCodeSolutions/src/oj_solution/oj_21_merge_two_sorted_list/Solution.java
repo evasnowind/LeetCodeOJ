@@ -3,6 +3,9 @@ package oj_solution.oj_21_merge_two_sorted_list;
 import oj_solution.oj_237_delete_node_in_linkedlist.ListNode;
 
 public class Solution {
+	/*
+	 * 另一种思路：用递归，参见https://discuss.leetcode.com/topic/5513/my-recursive-way-to-solve-this-problem-java-easy-understanding/2
+	 */
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
 		if(l1 == null && l2 == null) return null;
