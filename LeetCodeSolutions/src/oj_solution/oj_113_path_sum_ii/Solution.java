@@ -18,6 +18,9 @@ public class Solution {
 		 * tmp分别尝试ArrayList、LinkedList，结果会发现使用LinkedList时
 		 * 速度不如ArrayList，原因在于：在getPathSum遍历到叶子节点、删除
 		 * 链表末尾节点时，使用了remove(index)的方式，这隐含着一个遍历操作。
+		 * 
+		 * 如果是在删除时直接调用remove(Object)则是从链表中通过改变指向删除节点，
+		 * 是一个O(1)的操作，以后应该注意这一点。
 		 */
 		List<Integer> tmp = new ArrayList<Integer>();
 		getPathSum(root,sum,res,tmp);
