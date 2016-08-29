@@ -1,8 +1,5 @@
 package oj_solution.oj_389_find_the_difference;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class Solution {
 	/*
 	 * 由于可能出现所有字母都出现、但t中出现次数一次的情况，因此不能使用
