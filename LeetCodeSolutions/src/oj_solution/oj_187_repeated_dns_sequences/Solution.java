@@ -13,6 +13,8 @@ public class Solution {
 	 * 		代表一个DNA字母，如此一个10字母的字符串可以用一个int表示。下面
 	 * 		代码用两个set，第一个用于判断是否重复，第二个用于判断是否之前已经
 	 * 		保存了这个结果
+	 * 
+	 * 另一种优化思路：https://discuss.leetcode.com/topic/8487/i-did-it-in-10-lines-of-c/2
 	 */
 	public List<String> findRepeatedDnaSequences(String s) {
 		List<String> res = new ArrayList<String>();
