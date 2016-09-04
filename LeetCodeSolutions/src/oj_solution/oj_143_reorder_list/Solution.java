@@ -6,7 +6,7 @@ public class Solution {
 	/*
 	 * 基本思路：还是快/慢指针思路的运用，找到中间点，后半条链表进行逆序操作，
 	 * 			然后将两条链表拼在一起即可(此解法速度尚可，击败79.24%)
-	 * 	PS:得看看discuss，看是否可以进一步优化
+	 * 	discuss上高票solution基本也是这思路，可以看这个：https://discuss.leetcode.com/topic/13869/java-solution-with-3-steps
 	 */
 	public void reorderList(ListNode head) {
 		if(null == head) return;
