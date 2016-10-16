@@ -1,6 +1,9 @@
 package oj_solution.oj_313_super_ugly_number;
 
 public class Solution {
+	/*
+	 * 参见https://discuss.leetcode.com/topic/34841/java-three-methods-23ms-36-ms-58ms-with-heap-performance-explained
+	 */
 	public int nthSuperUglyNumber(int n, int[] primes) {
 		int[] ugly = new int[n];
 	    int[] idx = new int[primes.length];
