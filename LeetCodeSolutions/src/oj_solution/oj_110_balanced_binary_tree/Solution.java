@@ -4,8 +4,15 @@ import oj_solution.oj_226_invert_binary_tree.TreeNode;
 
 public class Solution {
 	/*
-	 * 分析：很容易想到的思路是，算出每个节点的高度，然后判断其父亲是否是BBT，
-	 * 		如果是，再算出父亲的高度，看祖父是否是BBT，……
+	 * 分析：很容易想到的思路是按照BBT的定义，递归算出根节点两个孩子的高度，
+	 * 		比较，如果是BBT，再看两个孩子节点是否为BBT，这个过程很明显会有
+	 * 		大量的重复计算，参见https://discuss.leetcode.com/topic/7798/the-bottom-up-o-n-solution-would-be-better
+	 * 		top to down的解法，时间复杂度为O(N)
+	 * 		相反，down to top解法则利用深度优先搜索，从下往上判断，先判断
+	 * 		当前遍历的子树是否为BBT，如果是再判断父亲、祖父……，时间复杂度为O(N)
+	 * 
+	 * 参见https://discuss.leetcode.com/topic/7798/the-bottom-up-o-n-solution-would-be-better
+	 * 		
 	 */
 	public boolean isBalanced(TreeNode root) {
 		if(root==null){
