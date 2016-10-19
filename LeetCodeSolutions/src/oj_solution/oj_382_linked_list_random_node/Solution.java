@@ -10,6 +10,8 @@ public class Solution {
 	 * 分析：最快的方式，所有节点全部放入hash表中，但题目中有提到可能节点数量
 	 * 		非常大，因此此种方法不合适。那么可以采用如下方法，缺点是需要额外遍历
 	 * 		一次链表、以计算长度。
+	 * 
+	 * TODO discuss上的不同解法有待进一步思考
 	 */
 	private ListNode listHead;
 	private int listLen = 0;
