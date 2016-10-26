@@ -19,6 +19,8 @@ public class Solution {
 	 * 
 	 * 思路：可以利用BST的性质，即根节点比所有左孩子小、比所有右孩子大，对于LCA，必然会出现
 	 * 		一个孩子在左、另一孩子在右的情况，据此从根节点往下查找即可。
+	 * 注：用此算法找到的必然是题目要求的LCA，因为比这个结果更高的节点，必然是同时位于p q的
+	 * 		同一侧（同时大于或小于p q），而比此结果更低的节点则不可能是p q的祖先
 	 * 参考：https://discuss.leetcode.com/topic/18381/my-java-solution
 	 * 		https://discuss.leetcode.com/topic/18387/3-lines-with-o-1-space-1-liners-alternatives
 	 */
