@@ -6,6 +6,8 @@ import oj_solution.oj_24_swap_nodes_in_pairs.ListNode;
 public class Solution {
 	/*
 	 * 参考https://discuss.leetcode.com/topic/35997/share-my-java-solution-1ms-very-short-and-concise
+	 * 
+	 * https://discuss.leetcode.com/topic/8141/share-my-o-1-space-and-o-n-time-java-code
 	 */
 	public TreeNode sortedListToBST(ListNode head) {
 		if(null == head) return null;
