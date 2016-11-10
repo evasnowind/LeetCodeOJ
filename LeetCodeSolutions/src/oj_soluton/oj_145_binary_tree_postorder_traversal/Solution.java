@@ -7,6 +7,9 @@ import java.util.Stack;
 import oj_solution.oj_226_invert_binary_tree.TreeNode;
 
 public class Solution {
+	/*
+	 * 后序遍历的非递归实现是先/中/后序非递归中最难的
+	 */
 	public List<Integer> postorderTraversal(TreeNode root) {
 		List<Integer> res = new ArrayList<Integer>();
 		if(null == root) return res;
