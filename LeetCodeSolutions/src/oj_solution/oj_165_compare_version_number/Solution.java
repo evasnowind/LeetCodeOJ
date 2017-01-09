@@ -4,6 +4,11 @@ public class Solution {
 	/**
 	 * 本题其实关键在于弄清楚输入数据的结构、版本号比较的逻辑，考虑好各种边界条件
 	 * 
+	 * 比如：
+	 * a. 1.0.1 与 1.0
+	 * b. 01与1
+	 * c. 1.0.0与1.0
+	 * 
 	 * @param version1
 	 * @param version2
 	 * @return
