@@ -9,11 +9,14 @@ public class Solution {
 	 * b. 01与1
 	 * c. 1.0.0与1.0
 	 * 
+	 * 以下代码取自 https://discuss.leetcode.com/topic/6238/accepted-small-java-solution
+	 * 
 	 * @param version1
 	 * @param version2
 	 * @return
 	 */
 	public int compareVersion(String version1, String version2) {
+		//因为split方法输入的是一个正则表达式所以不能直接用.，而是要用\.，而java的\要转义，所有要用\\.
 		String[] levels1 = version1.split("\\.");
 	    String[] levels2 = version2.split("\\.");
 	    
@@ -26,7 +29,6 @@ public class Solution {
 	    		return compare;
 	    	}
 	    }
-	    
 	    return 0;
     }
 }
