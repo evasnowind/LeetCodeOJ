@@ -27,6 +27,8 @@ public class Solution {
 	 * discuss分析参见：
 	 * https://discuss.leetcode.com/topic/6513/simple-c-c-solution-with-detailed-explaination
 	 * 同时此帖还给出了本题的非递归实现（分别算出5 25 125 ...的个数，加到一起）
+	 * 
+	 * 我个人倾向于使用递归实现，因为非递归实现需要计算5的阶乘，n值很大时可能出现溢出的情况
 	 * @param n
 	 * @return
 	 */
