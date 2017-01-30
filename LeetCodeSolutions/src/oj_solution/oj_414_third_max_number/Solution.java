@@ -8,7 +8,10 @@ public class Solution {
 	 * 		保证只保存最大的3个数；未满3个，则找到最大即可
 	 * 		
 	 * 	另外的思路：
-	 * 	用优先级队列	https://discuss.leetcode.com/topic/63086/java-priorityqueue-o-n-o-1
+	 * 	
+	 * 
+	 * 若不考虑题目要求的时间复杂度必须是O(n)的情况，则可以通过排序来搞定（甚至于，在java中可以直接用TreeSet之类的数据结构）
+	 * 用优先级队列其实也是用了排序，如此帖的算法（没有满足O(n)的时间）	https://discuss.leetcode.com/topic/63086/java-priorityqueue-o-n-o-1
 	 * @param nums
 	 * @return
 	 */
