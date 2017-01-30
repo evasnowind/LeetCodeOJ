@@ -4,7 +4,8 @@ public class Solution {
 
 	/**
 	 * 分析：下面代码取自 https://discuss.leetcode.com/topic/63715/java-neat-and-easy-understand-solution-o-n-time-o-1-space
-	 * 		其实这种思路最简单，也最直观，即遍历整个数组，保存最大的3个数
+	 * 		其实这种思路最简单，也最直观，即遍历整个数组，考虑未满3个数、满3个数的情况。满3个数，则不断腾挪，
+	 * 		保证只保存最大的3个数；未满3个，则找到最大即可
 	 * 		
 	 * 	另外的思路：
 	 * 	用优先级队列	https://discuss.leetcode.com/topic/63086/java-priorityqueue-o-n-o-1
