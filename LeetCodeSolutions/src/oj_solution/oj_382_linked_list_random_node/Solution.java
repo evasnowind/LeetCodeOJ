@@ -29,7 +29,7 @@ public class Solution {
 	 * 
 	 * 
 	 * 
-	 * 代码：
+	 * 代码(来自：https://discuss.leetcode.com/topic/53738/o-n-time-o-1-space-java-solution)：
 	ListNode head = null;
     Random randomGenerator = null;
     public Solution(ListNode head) {
