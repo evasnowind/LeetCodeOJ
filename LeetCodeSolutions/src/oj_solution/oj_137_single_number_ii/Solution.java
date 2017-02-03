@@ -3,13 +3,13 @@ package oj_solution.oj_137_single_number_ii;
 public class Solution {
 	/*
 	 * 思路：本题与single number i不一样，不是很直观，下面代码思路来自
-	 * http://blog.csdn.net/sunao2002002/article/details/46318025
+	 * http://blog.csdn.net/jiadebin890724/article/details/23306837
 	 * 统计每个数字相同位置的二进制位，由于除了一个数以外，所有数都是3个
 	 * 相同数字，那么每一二进制上1或是0的个数必然是3N或是3N+1
 	 * 3N+1的情况记录下这个1的位置，不断重复即可得到单独的一个数
 	 * 
 	 * 参考资料：
-	 * http://blog.csdn.net/sunao2002002/article/details/46318025
+	 * http://blog.csdn.net/jiadebin890724/article/details/23306837
 	 * https://discuss.leetcode.com/topic/2031/challenge-me-thx/2
 	 * https://discuss.leetcode.com/topic/11877/detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
 	 * 
