@@ -2,13 +2,24 @@ package oj_solution.oj_6_zigza_conversion;
 
 public class Solution {
 	/**
-	 * ÒÔÏÂ·ÖÎöÀ´×Ô£ºhttp://www.2cto.com/kf/201311/259392.html
-	 * ÀûÓÃÊäÈë×Ö·û´òÓ¡Ò»¸öµ¹Á¢Ö®×ÖĞÎµÄÍ¼Ñù¡£
- ¹Ø¼üÊÇÒª»áÈçºÎ¼ÆËã¸÷¸ö×Ö·ûµÄÎ»ÖÃ£¬Õâ¾ÍĞèÒªÊıÑ§ÖªÊ¶ÁË£¬¸ù¾İÌØÊâÍÆµ¼³ö¹«Ê½À´¡£
-Ö÷ÒªÊÇ3¸ö¹«Ê½£º
-1 Ö®×ÖĞÎĞĞÊıÎªnumRows,ÄÇÃ´Ã¿´ÎÖØ¸´Ñù³öÏÖÇ°µÄ¼ä¸ô×Ö·ûÎªsize = numRows*2-2;
-2 µÚÒ»ĞĞºÍ×îÎ²Ò»ĞĞ¶¼ÊÇ´æ·ÅÒ»¸ö×Ö·ûµÄ£¬ËùÒÔ´æ´¢µÄ×Ö·ûÎª¼ä¸ôÎªsizeµÄ×Ö·û
-3 ÖĞ¼äĞĞÊÇĞèÒª¶îÍâ´æ´¢¶àÒ»¸ö×Ö·ûµÄ£¬´æ´¢µÄ×Ö·ûÎ»ÖÃÊÇ£º size + j - 2*i£¨ÆäÖĞiÎªĞĞÊı£¬jÎª¸ÃĞĞµÚ¼¸¸ö×Ö·ûÁË£©
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string text, int nRows);
+convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+	 * 
+	 * ä»¥ä¸‹åˆ†ææ¥è‡ªï¼šhttp://www.2cto.com/kf/201311/259392.html
+	 * åˆ©ç”¨è¾“å…¥å­—ç¬¦æ‰“å°ä¸€ä¸ªå€’ç«‹ä¹‹å­—å½¢çš„å›¾æ ·ã€‚
+ å…³é”®æ˜¯è¦ä¼šå¦‚ä½•è®¡ç®—å„ä¸ªå­—ç¬¦çš„ä½ç½®ï¼Œè¿™å°±éœ€è¦æ•°å­¦çŸ¥è¯†äº†ï¼Œæ ¹æ®ç‰¹æ®Šæ¨å¯¼å‡ºå…¬å¼æ¥ã€‚
+ä¸»è¦æ˜¯3ä¸ªå…¬å¼ï¼š
+1 ä¹‹å­—å½¢è¡Œæ•°ä¸ºnumRows,é‚£ä¹ˆæ¯æ¬¡é‡å¤æ ·å‡ºç°å‰çš„é—´éš”å­—ç¬¦ä¸ºsize = numRows*2-2;
+2 ç¬¬ä¸€è¡Œå’Œæœ€å°¾ä¸€è¡Œéƒ½æ˜¯å­˜æ”¾ä¸€ä¸ªå­—ç¬¦çš„ï¼Œæ‰€ä»¥å­˜å‚¨çš„å­—ç¬¦ä¸ºé—´éš”ä¸ºsizeçš„å­—ç¬¦
+3 ä¸­é—´è¡Œæ˜¯éœ€è¦é¢å¤–å­˜å‚¨å¤šä¸€ä¸ªå­—ç¬¦çš„ï¼Œå­˜å‚¨çš„å­—ç¬¦ä½ç½®æ˜¯ï¼š size + j - 2*iï¼ˆå…¶ä¸­iä¸ºè¡Œæ•°ï¼Œjä¸ºè¯¥è¡Œç¬¬å‡ ä¸ªå­—ç¬¦äº†ï¼‰
 	 * @param s
 	 * @param numRows
 	 * @return
