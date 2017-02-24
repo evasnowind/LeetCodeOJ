@@ -11,8 +11,19 @@ package oj_solution.oj_24_swap_nodes_in_pairs;
 public class Solution {
 	
 	/*
-	 * leetcodeÉÏÁíÒ»ÖÖ½â·¨£¬µ«²»·ûºÏ³£Á¿´æ´¢¿Õ¼äµÄÒªÇó£¬¸Ãµİ¹éËã·¨
-	 * ÊÇ½«Ã¿2¸ö½Úµã×÷ÎªÒ»¸ö´¦Àíµ¥Ôª£¬¿Õ¼ä¸´ÔÓ¶ÈÎªO(n)
+	 * 
+	 * https://leetcode.com/problems/swap-nodes-in-pairs/
+	 * 
+Given a linked list, swap every two adjacent nodes and return its head.
+
+For example,
+Given 1->2->3->4, you should return the list as 2->1->4->3.
+
+Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
+ 
+	 * 
+	 * leetcodeä¸Šå¦ä¸€ç§è§£æ³•ï¼Œä½†ä¸ç¬¦åˆå¸¸é‡å­˜å‚¨ç©ºé—´çš„è¦æ±‚ï¼Œè¯¥é€’å½’ç®—æ³•
+	 * æ˜¯å°†æ¯2ä¸ªèŠ‚ç‚¹ä½œä¸ºä¸€ä¸ªå¤„ç†å•å…ƒï¼Œç©ºé—´å¤æ‚åº¦ä¸ºO(n)
 	 public ListNode swapPairs(ListNode head) {
         if ((head == null)||(head.next == null))
             return head;
@@ -27,9 +38,9 @@ public class Solution {
     	ListNode dummyNode = new ListNode(0);
     	dummyNode.next = head;
     	/*
-    	 * Ê¹ÓÃdummyNode×÷ÎªÍ·½áµã£¬ÓĞÁ½¸öÓÃ´¦£º
-    	 * 1¡¢·½±ã´¦Àí£¬ËùÓĞ½áµã¶¼¿ÉÒÔµ±×öÔÚÁ´±íÖĞµÄ½Úµã½»»»£¬Èç¹û²»¼ÓÍ·½áµã£¬µÚÒ»¸ö½áµãµÄ½»»»ĞèÒªµ¥¶À´¦Àí
-    	 * 2¡¢Ã»ÓĞÍ·½áµã£¬²»·½±ãÕÒµ½Á´±íÍ·£¬»¹ÊÇĞèÒª¶îÍâÒ»¸ö±äÁ¿À´±£´æ
+    	 * ä½¿ç”¨dummyNodeä½œä¸ºå¤´ç»“ç‚¹ï¼Œæœ‰ä¸¤ä¸ªç”¨å¤„ï¼š
+    	 * 1ã€æ–¹ä¾¿å¤„ç†ï¼Œæ‰€æœ‰ç»“ç‚¹éƒ½å¯ä»¥å½“åšåœ¨é“¾è¡¨ä¸­çš„èŠ‚ç‚¹äº¤æ¢ï¼Œå¦‚æœä¸åŠ å¤´ç»“ç‚¹ï¼Œç¬¬ä¸€ä¸ªç»“ç‚¹çš„äº¤æ¢éœ€è¦å•ç‹¬å¤„ç†
+    	 * 2ã€æ²¡æœ‰å¤´ç»“ç‚¹ï¼Œä¸æ–¹ä¾¿æ‰¾åˆ°é“¾è¡¨å¤´ï¼Œè¿˜æ˜¯éœ€è¦é¢å¤–ä¸€ä¸ªå˜é‡æ¥ä¿å­˜
     	 */
     	ListNode tmpNode = dummyNode;	
     	while(null != tmpNode.next && null != tmpNode.next.next) {

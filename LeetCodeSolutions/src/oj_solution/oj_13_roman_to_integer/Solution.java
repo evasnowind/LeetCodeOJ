@@ -3,7 +3,11 @@ package oj_solution.oj_13_roman_to_integer;
 import java.util.HashMap;
 
 public class Solution {
-	
+	/*
+Given a roman numeral, convert it to an integer.
+
+Input is guaranteed to be within the range from 1 to 3999.
+	 */
 	private static HashMap<Character, Integer> table = new HashMap<Character, Integer>();
 	static{
 		table.put('I', 1);

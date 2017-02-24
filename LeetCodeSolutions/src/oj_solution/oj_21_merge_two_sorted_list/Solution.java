@@ -4,6 +4,11 @@ import oj_solution.oj_237_delete_node_in_linkedlist.ListNode;
 
 public class Solution {
 	/*
+	 *  https://leetcode.com/problems/merge-two-sorted-lists/?tab=Description
+	 *  
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+	 * 
 	 * 另一种思路：用递归，参见https://discuss.leetcode.com/topic/5513/my-recursive-way-to-solve-this-problem-java-easy-understanding/2
 	 */
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

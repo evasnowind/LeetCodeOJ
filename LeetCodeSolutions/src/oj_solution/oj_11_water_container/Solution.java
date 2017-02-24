@@ -2,6 +2,10 @@ package oj_solution.oj_11_water_container;
 
 public class Solution {
 	/*
+Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+
+Note: You may not slant the container and n is at least 2.
+	 * 
 	 * 参考：https://discuss.leetcode.com/topic/16754/simple-and-fast-c-c-with-explanation
 	 * 
 	 * 一般思路：实际要算的是max(min(ai,aj)*|i-j|)遍历所有可能，双重循环

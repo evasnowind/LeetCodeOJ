@@ -2,12 +2,23 @@ package oj_solution.oj_26_remove_duplicated_sorted_arr;
 
 public class Solution {
 	/*
-	 * Ò»°ãË¼Â·£º
-	 * 	£¨1£©Ê¹ÓÃ¹şÏ£±í£¬É¨ÃèÒ»´Î£¬Ê±¼äO(N) ¿Õ¼äO(N)
-	 * 	£¨2£©Ã¿¶ÁÒ»¸öÖµ£¬¾ÍÏòºóÉ¨Ãè£¬Ê±¼äO(N*N) ¿Õ¼äO(1)
+	 * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 	 * 
-	 * ÌâÄ¿ÒªÇó³£Á¿´æ´¢¿Õ¼ä£¬²¢ÇÒÌáÊ¾¿ÉÒÔ¸Ä±äÊı×éÄÚÈİ£¬
-	 * Òò´Ë¿ÉÒÔ²ÉÓÃÕâÖÖ¸´ÖÆµÄÊÖ¶Î
+	 * Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+
+Do not allocate extra space for another array, you must do this in place with constant memory.
+
+For example,
+Given input array nums = [1,1,2],
+
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.
+	 * 
+	 * ä¸€èˆ¬æ€è·¯ï¼š
+	 * 	ï¼ˆ1ï¼‰ä½¿ç”¨å“ˆå¸Œè¡¨ï¼Œæ‰«æä¸€æ¬¡ï¼Œæ—¶é—´O(N) ç©ºé—´O(N)
+	 * 	ï¼ˆ2ï¼‰æ¯è¯»ä¸€ä¸ªå€¼ï¼Œå°±å‘åæ‰«æï¼Œæ—¶é—´O(N*N) ç©ºé—´O(1)
+	 * 
+	 * é¢˜ç›®è¦æ±‚å¸¸é‡å­˜å‚¨ç©ºé—´ï¼Œå¹¶ä¸”æç¤ºå¯ä»¥æ”¹å˜æ•°ç»„å†…å®¹ï¼Œ
+	 * å› æ­¤å¯ä»¥é‡‡ç”¨è¿™ç§å¤åˆ¶çš„æ‰‹æ®µ
 	 */
 	public int removeDuplicates(int[] nums) {
 		if(null == nums || nums.length == 0) return 0;

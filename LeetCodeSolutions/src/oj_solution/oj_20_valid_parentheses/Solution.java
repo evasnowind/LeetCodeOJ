@@ -3,6 +3,15 @@ package oj_solution.oj_20_valid_parentheses;
 import java.util.Stack;
 
 public class Solution {
+	/*
+	 * 
+	 * https://leetcode.com/problems/valid-parentheses
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+	分析：思路比较简单，和表达式求值有些神似，都是利用栈进行推导
+	 */
 	public boolean isValid(String s) {
 		if(null == s || "".equalsIgnoreCase(s)) return true;
 		char[] chs = s.toCharArray();
