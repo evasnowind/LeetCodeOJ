@@ -2,6 +2,16 @@ package oj_solution.oj_36_valid_sudoku;
 
 public class Solution {
 	/*
+	 * https://leetcode.com/problems/valid-sudoku/?tab=Description
+	 * 
+	 * Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
+
+The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
+
+Note:
+A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
+
+	 * 
 	 * 参考了http://blog.csdn.net/linhuanmars/article/details/20748171 
 	 * 注意题目的意思其实就是验证一下表格中已有的数组是否满足数独规则，
 	 * 因此就是一个遍历操作，去挨个验证横、竖、整个方块是否有效

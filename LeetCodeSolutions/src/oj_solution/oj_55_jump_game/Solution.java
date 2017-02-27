@@ -2,12 +2,27 @@ package oj_solution.oj_55_jump_game;
 
 public class Solution {
 	/*
-	 * ×¢ÒâÌâÄ¿ÖĞËµµÄÊÇÃ¿¸öÔªËØ±íÊ¾×î´óÌøÔ¾³¤¶È£¬
-	 * ²¢²»ÊÇÃ¿´Î±ØĞëÌøÕâÃ´Ô¶£¬±ÈÈç[2,0]£¬ÄÇÃ´µÚÒ»´Î
-	 * Ö»Ìø1²½¼´¿Éµ½´ïÄ©Î²£¬Ó¦·µ»Øtrue
 	 * 
-	 * Ëã·¨£ºÃ¿¸öÔªËØ¶¼ÊÔÑéÒ»ÏÂ£¬Ã¿´Î¶¼¸üĞÂ¿ÉÒÔÌøµ½µÄ
-	 * ·¶Î§£¬Èç¹û·¶Î§Ã»°üÀ¨×îºóÒ»¸öÔªËØ£¬¾Ífalse
+	 * https://leetcode.com/problems/jump-game/?tab=Description
+	 * 
+	 * 
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+Each element in the array represents your maximum jump length at that position.
+
+Determine if you are able to reach the last index.
+
+For example:
+A = [2,3,1,1,4], return true.
+
+A = [3,2,1,0,4], return false.
+	 * 
+	 * æ³¨æ„é¢˜ç›®ä¸­è¯´çš„æ˜¯æ¯ä¸ªå…ƒç´ è¡¨ç¤ºæœ€å¤§è·³è·ƒé•¿åº¦ï¼Œ
+	 * å¹¶ä¸æ˜¯æ¯æ¬¡å¿…é¡»è·³è¿™ä¹ˆè¿œï¼Œæ¯”å¦‚[2,0]ï¼Œé‚£ä¹ˆç¬¬ä¸€æ¬¡
+	 * åªè·³1æ­¥å³å¯åˆ°è¾¾æœ«å°¾ï¼Œåº”è¿”å›true
+	 * 
+	 * ç®—æ³•ï¼šæ¯ä¸ªå…ƒç´ éƒ½è¯•éªŒä¸€ä¸‹ï¼Œæ¯æ¬¡éƒ½æ›´æ–°å¯ä»¥è·³åˆ°çš„
+	 * èŒƒå›´ï¼Œå¦‚æœèŒƒå›´æ²¡åŒ…æ‹¬æœ€åä¸€ä¸ªå…ƒç´ ï¼Œå°±false
 	 */
 	public boolean canJump(int[] nums) {
 		if(null == nums || nums.length == 0) return false;

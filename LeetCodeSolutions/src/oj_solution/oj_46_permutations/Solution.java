@@ -4,6 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
+	/*
+	 * https://leetcode.com/problems/permutations/?tab=Description
+	 * 
+	 * 
+Given a collection of distinct numbers, return all possible permutations.
+
+For example,
+[1,2,3] have the following permutations:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+	 * 
+	 * 经典的回溯问题：算出整个数组的全排列
+	 */
 	public List<List<Integer>> permute(int[] nums) {
 		List<List<Integer>> res = new ArrayList<List<Integer>>();
 		if(null == nums){

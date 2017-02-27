@@ -1,10 +1,22 @@
 package oj_solution.oj_28_implement_strStr;
 
 public class Solution {
+	/*
+	 * 
+
+https://leetcode.com/problems/implement-strstr/?tab=Description
+
+Implement strStr().
+
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+
+	 */
 	public int strStr(String haystack, String needle) {
 		if(null == haystack || null == needle) return -1;
 		/*
-		 * TODO ÆäÊµÃ»É¶ºÃµÄ½â·¨£¬Ö±½Ó±éÀú¾ÍÊÇÁË£¬²»¹ıÒ²Ğí¿ÉÒÔ²Î¿¼Ò»ÏÂKMPËã·¨£¿
+		 * TODO å…¶å®æ²¡å•¥å¥½çš„è§£æ³•ï¼Œç›´æ¥éå†å°±æ˜¯äº†ï¼Œä¸è¿‡ä¹Ÿè®¸å¯ä»¥å‚è€ƒä¸€ä¸‹KMPç®—æ³•ï¼Ÿ
+		 * 
 		 */
 		for(int i = 0; ; i++) {
 			for(int j = 0; ; j++){

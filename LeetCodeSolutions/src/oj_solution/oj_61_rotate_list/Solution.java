@@ -4,6 +4,15 @@ import oj_solution.oj_24_swap_nodes_in_pairs.ListNode;
 
 public class Solution {
 	/*
+	 * 
+	 * https://leetcode.com/problems/rotate-list/?tab=Description
+	 * 
+Given a list, rotate the list to the right by k places, where k is non-negative.
+
+For example:
+Given 1->2->3->4->5->NULL and k = 2,
+return 4->5->1->2->3->NULL.
+	 * 
 	 * 思路：虽然leetcode上有类似题目rotate array，但两题思路完全不同。
 	 * 本题实际上运用快、慢两个指针（解决链表题目时非常重要的一种思路！！！），类似题目如：找到链表中倒数第k节点
 	 * 具体做法有如下两种：

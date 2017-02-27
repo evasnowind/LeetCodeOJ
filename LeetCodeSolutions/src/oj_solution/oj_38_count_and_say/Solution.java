@@ -2,8 +2,20 @@ package oj_solution.oj_38_count_and_say;
 
 public class Solution {
 	/**
-	 * ÕÒ¹æÂÉÌâ£ºµÚn¸öÊı×ÖÊÇ´ÓÍ·µ½Î²ÊıµÚn-1¸öÊı×ÖÖĞÃ¿¸ö
-	 * Êı×Ö¸÷ÓĞ¶àÉÙ¸ö£¬±ÈÈçµÚ3¸öÊı×Ö¡°21¡±ÊÇÊı¡°11¡±£ºÓĞ2¸ö¡°1¡±£¬Òò´ËÊÇ21
+	 * https://leetcode.com/problems/count-and-say/
+	 * 
+	 * The count-and-say sequence is the sequence of integers beginning as follows:
+1, 11, 21, 1211, 111221, ...
+
+1 is read off as "one 1" or 11.
+11 is read off as "two 1s" or 21.
+21 is read off as "one 2, then one 1" or 1211.
+Given an integer n, generate the nth sequence.
+
+Note: The sequence of integers will be represented as a string.
+	 * 
+	 * æ‰¾è§„å¾‹é¢˜ï¼šç¬¬nä¸ªæ•°å­—æ˜¯ä»å¤´åˆ°å°¾æ•°ç¬¬n-1ä¸ªæ•°å­—ä¸­æ¯ä¸ª
+	 * æ•°å­—å„æœ‰å¤šå°‘ä¸ªï¼Œæ¯”å¦‚ç¬¬3ä¸ªæ•°å­—â€œ21â€æ˜¯æ•°â€œ11â€ï¼šæœ‰2ä¸ªâ€œ1â€ï¼Œå› æ­¤æ˜¯21
 	 * @param n
 	 * @return
 	 */
