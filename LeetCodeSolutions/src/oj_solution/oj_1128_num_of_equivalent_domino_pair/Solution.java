@@ -1,4 +1,4 @@
-package oj_1124_num_of_equivalent_domino_pair;
+package oj_1128_num_of_equivalent_domino_pair;
 
 import java.util.HashMap;
 import java.util.Map;
