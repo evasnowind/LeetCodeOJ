@@ -1,3 +1,7 @@
+package oj_1124_longest_wpi;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Solution {
     public int longestWPI(int[] hours) {
