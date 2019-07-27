@@ -2,26 +2,38 @@ package oj_35_search_insert_position;
 
 public class Solution {
     public static int searchInsert(int[] nums, int target) {
-        for (int i=0; i < nums.length; i++){
-            if (nums[i] == target){return i;}
+        int start = 0, end = nums.length - 1;
+        int index = -1;
+        if (target > nums[end]) {
+            return end + 1;
         }
+        if (target < nums[start])
+            return 0;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
 
-        for (int j=0; j < nums.length; j++){
+            if (target == nums[mid]) {
+                index = mid;
+                break;
+            } else if (target > nums[mid]) {
+                start = mid + 1;
+                if (nums[mid + 1] > target) {
+                    index = mid + 1;
+                }
 
-            if (j == nums.length-1 && nums[j] < target){return j+1;}
-
-            if (nums[j] > target){return j;}
+            } else {
+                end = mid - 1;
+            }
         }
-        return -1;
+        return index;
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1,3,5,6};
-
+        int[] nums = new int[]{1, 3, 5, 6};
         System.out.println(searchInsert(nums, 5));
-
-        int[] nums2 = new int[]{1};
-
-        System.out.println(searchInsert(nums2, 1));
+        System.out.println(searchInsert(nums, 1));
+        System.out.println(searchInsert(nums, 2));
+        System.out.println(searchInsert(nums, 7));
+        System.out.println(searchInsert(nums, 0));
     }
 }
