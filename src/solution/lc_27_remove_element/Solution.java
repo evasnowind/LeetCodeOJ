@@ -32,4 +32,19 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
         }
 		return pivot;
     }
+
+    public int removeElement2(int[] nums, int val) {
+		if(null == nums || nums.length == 0) {
+			return 0;
+		}
+
+		int i = 0;
+		for (int j = 0; j < nums.length; j++) {
+			if(nums[j] != val) {
+				nums[i] = nums[j];
+				i += 1;
+			}
+		}
+		return i;
+	}
 }
