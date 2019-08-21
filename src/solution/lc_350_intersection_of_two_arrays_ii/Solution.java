@@ -1,4 +1,4 @@
-package solution.oj_350_intersection_of_two_arrays_ii;
+package solution.lc_350_intersection_of_two_arrays_ii;
 
 import java.util.ArrayList;
 import java.util.Arrays;
