@@ -13,6 +13,8 @@ public class Solution {
      * 深度优先/广度优先都可以做到。
      * 此处用广度优先
      *
+     * 参见 https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/
+     *
      * @param grid
      * @return
      */
