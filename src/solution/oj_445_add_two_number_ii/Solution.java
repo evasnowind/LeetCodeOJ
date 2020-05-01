@@ -2,10 +2,15 @@ package solution.oj_445_add_two_number_ii;
 
 import java.util.Stack;
 
-import oj_solution.oj_24_swap_nodes_in_pairs.ListNode;
-
 public class Solution {
-	/*
+
+    class ListNode {
+        public int val;
+        public ListNode next;
+        public ListNode(int x){val = x;}
+    }
+
+    /*
 	 * 分析：
 	 * 下面代码取自https://discuss.leetcode.com/topic/65279/easy-o-n-java-solution-using-stack
 	 * 代码很容易理解，其实关键就在于：用栈逆转链表顺序，使其对应位刚好对齐

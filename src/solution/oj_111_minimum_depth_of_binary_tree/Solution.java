@@ -1,8 +1,16 @@
 package solution.oj_111_minimum_depth_of_binary_tree;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	
 	/*
 	public int minDepth(TreeNode root) {

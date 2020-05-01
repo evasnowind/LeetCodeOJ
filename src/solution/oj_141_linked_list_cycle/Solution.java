@@ -1,8 +1,13 @@
 package solution.oj_141_linked_list_cycle;
 
-import oj_solution.oj_237_delete_node_in_linkedlist.ListNode;
-
 public class Solution {
+
+	class ListNode {
+		public int val;
+		public ListNode next;
+		public ListNode(int x){val = x;}
+	}
+
 	/*
 	 * 经典题目，采用快慢指针方案，即Floyd Cycle Detection Algorithm
 	 * 

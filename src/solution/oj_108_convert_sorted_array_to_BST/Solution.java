@@ -1,8 +1,17 @@
 package solution.oj_108_convert_sorted_array_to_BST;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
+
 	/*
 	 * 解析：首先得明确题目要求 height balanced BST，详细定义可以参见下面帖子
 	 * 		https://discuss.leetcode.com/topic/718/the-definition-of-height-balanced-bst

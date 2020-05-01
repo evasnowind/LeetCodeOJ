@@ -3,9 +3,18 @@ package solution.oj_257_binary_tree_paths;
 import java.util.ArrayList;
 import java.util.List;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
         /*
         public List<String> binaryTreePaths(TreeNode root) {
 	        List<String> paths = new LinkedList<>();

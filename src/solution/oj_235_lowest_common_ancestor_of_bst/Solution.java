@@ -1,8 +1,16 @@
 package solution.oj_235_lowest_common_ancestor_of_bst;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	/*
 	 * 
 	 * 二叉查找树（Binary Search Tree），（又：二叉搜索树，二叉排序树）它或者是一棵空树，

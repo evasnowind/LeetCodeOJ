@@ -1,8 +1,16 @@
 package solution.oj_105_contruct_binary_tree;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	/*
 	 * 分析：算法很直观，通过观察两个数组preorder inorder，即可发现，先根据preorder获取
 	 * 		根，然后根据inorder获得左右子树，递归下去即可。其中，在inorder中找到根节点后，

@@ -2,10 +2,16 @@ package solution.oj_437_path_sum_iii;
 
 import java.util.Stack;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
-	
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
 	
 	/*
 	 * 分析：下面算法思路如下：深度遍历，累加这条路径从根节点到当前节点的和，判断

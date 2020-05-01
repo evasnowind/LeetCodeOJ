@@ -2,9 +2,17 @@ package solution.oj_106_construct_bt_from_inorder_postorder;
 
 import java.util.HashMap;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	/*
 	 * 思路比较清晰，先看后序遍历的最后一个节点，此为根节点，然后在中序中找到根节点位置，在中序中根节点左边
 	 * 即为左子树、右边即为右子树，递归这个过程即可

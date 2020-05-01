@@ -1,9 +1,8 @@
-# LeetCodeOJ
-LeetCode Online Judge solutions 
+# LeetCode Solution Java Version 
 
-# Leetcode OJ Classcification
+## Leetcode Problem Classcification
 
-## String
+### String
 8 String to Integer (atoi)    
 14 Longest Common Prefix  
 20 Valid Parentheses  
@@ -11,8 +10,10 @@ LeetCode Online Judge solutions
 43 Multiply Strings  
 
 
-## List
+### List
+[1 two sum](src/solution/oj_1_twosum)  
 2 Add Two Numbers  
+[21 merge two sorted list](src/solution/oj_21_merge_two_sorted_list)    
 19 Remove Nth Node From End of List  
 21 Merge Two Sorted Lists  
 24 Swap Nodes in Pairs  
@@ -20,23 +21,23 @@ LeetCode Online Judge solutions
 61 Rotate List  
 
 
-## Tree
+### Tree
 
 
-## Sorting
+### Sorting
 4 Median of Two Sorted Arrays  
 15 3Sum  
 26 Remove Duplicates from Sorted Array  
 
 
-## Graph
+### Graph
 
-## Classic Algorithm
-### Backtrack
+### Classic Algorithm
+#### Backtrack
 46 Permutations  
 
 
-## Math
+### Math
 6 ZigZag Conversion  
 7 Reverse Integer  
 9 Palindrome Number  
@@ -48,7 +49,7 @@ LeetCode Online Judge solutions
 38 Count and Say  
 43 Multiply Strings  
 
-## Simulation
+### Simulation
 54 Spiral Matrix  
 55 Jump Game  
 58 Length of Last Word  

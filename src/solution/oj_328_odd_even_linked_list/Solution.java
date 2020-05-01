@@ -1,8 +1,12 @@
 package solution.oj_328_odd_even_linked_list;
 
-import oj_solution.oj_24_swap_nodes_in_pairs.ListNode;
-
 public class Solution {
+
+	class ListNode {
+		public int val;
+		public ListNode next;
+		public ListNode(int x){val = x;}
+	}
 
 	/*
 	 * 分析：简单思路是遍历链表过程中，将奇数节点放到链表a上，偶数节点放到

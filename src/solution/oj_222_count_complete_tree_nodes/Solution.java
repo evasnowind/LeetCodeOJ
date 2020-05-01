@@ -1,8 +1,16 @@
 package solution.oj_222_count_complete_tree_nodes;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	/*
 	 * 分析：
 	 * 	下面代码来自：https://discuss.leetcode.com/topic/15533/concise-java-solutions-o-log-n-2

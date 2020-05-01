@@ -1,13 +1,19 @@
 package solution.oj_404_sum_of_left_leaves;
 
 
-
 import java.util.ArrayList;
 import java.util.List;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	/*
 	 * 分析：很简单的一道题目，其实就是树的遍历过程，下面的代码是我一开始想到的，没做
 	 * 任何优化，代码有些多但容易理解：遍历，如果遇到左叶子则记录下来，最后遍历队列算出结果。

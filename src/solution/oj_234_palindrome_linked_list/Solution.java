@@ -1,8 +1,13 @@
 package solution.oj_234_palindrome_linked_list;
 
-import oj_solution.oj_24_swap_nodes_in_pairs.ListNode;
-
 public class Solution {
+
+	class ListNode {
+		public int val;
+		public ListNode next;
+		public ListNode(int x){val = x;}
+	}
+
 	/*
 	 * 思路：判断回文，首先想到的是类似OJ9 palindrome number的解法，即算出逆序后数/字符串，两者相互
 	 * 		比较。但本题特殊之处在于要比对的是链表，而且要求O(1)空间，因此这里可以采用链表中常用的

@@ -1,8 +1,17 @@
 package solution.oj_112_path_sum;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
+
 	/*
 	public boolean hasPathSum(TreeNode root, int sum) {
 		if(null == root) return false;

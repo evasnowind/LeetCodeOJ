@@ -1,8 +1,17 @@
 package solution.oj_100_same_tree;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
 
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	public boolean isSameTree(TreeNode p, TreeNode q) {
 		if(null == p && null == q){
 			return true;

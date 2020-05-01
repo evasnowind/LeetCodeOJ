@@ -2,9 +2,13 @@ package solution.oj_382_linked_list_random_node;
 
 import java.util.Random;
 
-import oj_solution.oj_2_add_two_num.ListNode;
-
 public class Solution {
+
+	class ListNode {
+		public int val;
+		public ListNode next;
+		public ListNode(int x){val = x;}
+	}
 	
 	/*
 	 * 分析：最快的方式，所有节点全部放入hash表中，但题目中有提到可能节点数量

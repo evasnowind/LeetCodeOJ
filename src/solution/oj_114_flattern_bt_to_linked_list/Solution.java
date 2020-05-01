@@ -3,9 +3,18 @@ package solution.oj_114_flattern_bt_to_linked_list;
 import java.util.ArrayList;
 import java.util.List;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
+
 	/*
 	 * 分析：下面是一个直观的思路，但效率不高，discuss上给出了如下算法
 	 * (参见https://discuss.leetcode.com/topic/3995/share-my-simple-non-recursive-solution-o-1-space-complexity)

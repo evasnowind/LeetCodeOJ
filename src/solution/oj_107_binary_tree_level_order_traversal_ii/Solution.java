@@ -5,9 +5,17 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import oj_solution.oj_226_invert_binary_tree.TreeNode;
-
 public class Solution {
+
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 	/*
 	 * 分析：经典的按层遍历，但将每行遍历结果逆序加到结果队列即可（实际是一个BFS）
 	 * 下面的实现是非递归的BFS解题思路。
