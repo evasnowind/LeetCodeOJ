@@ -10,9 +10,9 @@
 43 Multiply Strings  
 
 
-### List
+### List/Linked List
 [1 two sum](src/solution/oj_1_twosum)  
-2 Add Two Numbers  
+[2 Add Two Numbers](src/solution/oj_2_add_two_num)    
 [21 merge two sorted list](src/solution/oj_21_merge_two_sorted_list)    
 19 Remove Nth Node From End of List  
 21 Merge Two Sorted Lists  
