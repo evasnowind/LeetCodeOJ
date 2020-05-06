@@ -12,6 +12,18 @@ public class Solution {
         }
     }
 
+    private boolean isSymmetricSubTree2(TreeNode left, TreeNode right) {
+        if (null == left || null == right) {
+            return left == right;
+        }
+
+        if (left.val != right.val) {
+            return false;
+        }
+
+        return isSymmetricSubTree2(left.left, right.right) && isSymmetricSubTree2(left.right, right.left);
+    }
+
     /*
      * 思路：可以按层遍历，获得每层的数字放到一个数组中（节点为空则放null值，否则会有错），看该数组是否对称，所有层都对称则树对称
      * 		但这样代码写起来有些麻烦，还是用递归解树的问题比较方便，目前看到的比较简洁的写法参考
