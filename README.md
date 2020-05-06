@@ -2,7 +2,8 @@
 
 ## Leetcode Problem Classcification
 
-### String
+### String  
+[3 longest substring without repeating character](src/solution/oj_3_longest_substring_without_repeating_char)  
 8 String to Integer (atoi)    
 14 Longest Common Prefix  
 20 Valid Parentheses  
@@ -22,7 +23,8 @@
 
 
 ### Tree
-
+[101 Symmetric Tree](src/solution/oj_101_symmetric_tree)
+[617 Merge Two Binary Tree](src/solution/oj_617_merge_two_binary_tree)
 
 ### Sorting
 4 Median of Two Sorted Arrays  
