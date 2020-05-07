@@ -25,6 +25,7 @@
 ### Tree
 [101 Symmetric Tree](src/solution/oj_101_symmetric_tree)
 [617 Merge Two Binary Tree](src/solution/oj_617_merge_two_binary_tree)
+[572 Subtree of Another Tree](src/solution/oj_572_subtree_of_another_tree)  
 
 ### Sorting
 4 Median of Two Sorted Arrays  
@@ -50,6 +51,7 @@
 36 Valid Sudoku  
 38 Count and Say  
 43 Multiply Strings  
+[415 add strings](src/solution/oj_415_add_strings)
 
 ### Simulation
 54 Spiral Matrix  
