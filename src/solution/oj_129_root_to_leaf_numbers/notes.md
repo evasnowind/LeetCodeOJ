@@ -60,7 +60,7 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 
 ```java
 public int sumNumbers(TreeNode root) {
-    
+    return helper(root, 0);
 }
 
 private int helper(TreeNode root, int ancestorVal) {
@@ -69,7 +69,7 @@ private int helper(TreeNode root, int ancestorVal) {
     }
     int tmp = ancestorVal * 10 + root.val;
     if (null == root.left && null == root.right) {
-        return root.val;
+        return tmp;
     }
     return helper(root.left, tmp) + helper(root.right, tmp);
 }

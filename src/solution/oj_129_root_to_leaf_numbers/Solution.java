@@ -23,6 +23,21 @@ public class Solution {
         return sum;
     }
 
+    public int sumNumbers2(TreeNode root) {
+        return helper(root, 0);
+    }
+
+    private int helper(TreeNode root, int ancestorVal) {
+        if (null == root) {
+            return 0;
+        }
+        int tmp = ancestorVal * 10 + root.val;
+        if (null == root.left && null == root.right) {
+            return tmp;
+        }
+        return helper(root.left, tmp) + helper(root.right, tmp);
+    }
+
     private void getLeafNum(TreeNode root, LinkedList<Integer> prefixList, ArrayList<Integer> numList) {
         if (null == root) {
             return;
@@ -58,7 +73,8 @@ public class Solution {
         node.right.right = new TreeNode(6);
 
         Solution s = new Solution();
-        s.sumNumbers(node);
+        int retVal = s.sumNumbers2(node);
+        System.out.println(retVal);
     }
 }
 
