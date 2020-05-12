@@ -11,6 +11,9 @@
 43 Multiply Strings  
 
 
+### Binary Search
+[50 Pow(x,n)](src/solution/oj_50_pow_x_n)
+
 ### List/Linked List
 [1 two sum](src/solution/oj_1_twosum)  
 [2 Add Two Numbers](src/solution/oj_2_add_two_num)    
@@ -19,8 +22,8 @@
 21 Merge Two Sorted Lists  
 24 Swap Nodes in Pairs  
 27 Remove Element  
-61 Rotate List  
-
+61 Rotate List   
+[155 Min Stack](src/solution/oj_155_min_stack)  
 
 ### Tree
 [101 Symmetric Tree](src/solution/oj_101_symmetric_tree)
