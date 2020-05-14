@@ -24,4 +24,22 @@ public class Solution {
 			nums[insertIdx++] = 0;
 		}
     }
+
+    /*
+    在上面基础之上，进一步优化，不用拷贝，直接交换当前0、与后面的非0元素，这样可以避免第2个循环，代码如下：
+    class Solution {
+    public void moveZeroes(int[] nums) {
+        int lastNonZeroFoundAt = 0;
+        int tmp = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                tmp = nums[i];
+                nums[i] = nums[lastNonZeroFoundAt];
+                nums[lastNonZeroFoundAt] = tmp;
+                lastNonZeroFoundAt += 1;
+            }
+        }
+    }
+}
+    * */
 }
