@@ -13,6 +13,17 @@ Note: You may not slant the container and n is at least 2.
 	 * 后续想要比这个容积更大，只能是高度更高，因此跳过那些x方向已经小于xmax并且高度也不高的
 	 * 数据
 	 */
+
+
+
+	public static void main(String[] args) {
+		int[] arr = new int[]{1,8,6,2,5,4,8,3,7};
+
+		Solution s = new Solution();
+		int res = s.maxArea(arr);
+		System.out.println(res);
+	}
+
 	public int maxArea(int[] height) {
 		if(null == height || height.length == 0) return 0;
 		int water = 0;
@@ -24,6 +35,6 @@ Note: You may not slant the container and n is at least 2.
 			while(height[i] <= h && i < j) i++;
 			while(height[j] <= h && i < j) j--;
 		}
-		return water; 
+		return water;
     }
 }
