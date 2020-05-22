@@ -1,4 +1,4 @@
-package solution.oj_105_contruct_binary_tree;
+package solution.oj_105_construct_binary_tree_from_preorder_inorder;
 
 public class Solution {
 
@@ -20,7 +20,7 @@ public class Solution {
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
         return buildSubTree(0, 0, preorder.length-1, preorder, inorder);
     }
-	
+
 	public TreeNode buildSubTree(int preStart, int inStart, int inEnd, int[] preorder, int[] inorder){
 		if(preStart > preorder.length-1 || inStart > inEnd){
 			return null;
@@ -33,6 +33,7 @@ public class Solution {
 				break;
 			}
 		}
+		//此处注意边界条件
 		root.left = buildSubTree(preStart+1, inStart, inIndex-1, preorder, inorder);
 		root.right = buildSubTree(preStart + inIndex - inStart + 1, inIndex+1, inEnd, preorder, inorder);
 		return root;
