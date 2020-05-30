@@ -60,3 +60,15 @@
 54 Spiral Matrix  
 55 Jump Game  
 58 Length of Last Word  
+
+## Need to Exercise Repeat...  
+
+src/solution/oj_102_binary_tree_level_order/notes.md
+src/solution/oj_152_maximum_product_subarray/
+src/solution/oj_236_lowest_common_ancestor_of_bt/notes.md
+src/solution/oj_25_reverse_nodes_in_k_group/
+src/solution/oj_287_find_duplicate_number/
+src/solution/oj_394_decode_string/
+src/solution/oj_4_median_in_two_sorted_array/
+src/solution/oj_560_subarray_sum_equals_k/
+src/solution/oj_680_valid_palindrome/
