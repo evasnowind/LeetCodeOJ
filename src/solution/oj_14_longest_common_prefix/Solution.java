@@ -31,4 +31,27 @@ public class Solution {
         
         return builder.toString();
     }
+
+    public String longestCommonPrefix2(String[] strs) {
+		if (null == strs || strs.length == 0) {
+			return "";
+		}
+
+		String tmpPrefix = strs[0];
+		for (int i = 1; i < strs.length; i++) {
+			int j = 0;
+			for (; j < tmpPrefix.length() && j < strs[i].length(); j++) {
+				if (tmpPrefix.charAt(j) != strs[i].charAt(j)) {
+					break;
+				}
+			}
+			tmpPrefix = tmpPrefix.substring(0,j);
+			if (null == tmpPrefix || tmpPrefix.equals("")) {
+				return "";
+			}
+		}
+		return tmpPrefix;
+	}
+
+
 }
