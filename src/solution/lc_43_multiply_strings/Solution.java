@@ -1,4 +1,4 @@
-package solution.oj_43_multiply_strings;
+package solution.lc_43_multiply_strings;
 
 
 public class Solution {
@@ -30,4 +30,6 @@ public class Solution {
 	    for(int p : pos) if(!(sb.length() == 0 && p == 0)) sb.append(p);
 	    return sb.length() == 0 ? "0" : sb.toString();
     }
+
+
 }
