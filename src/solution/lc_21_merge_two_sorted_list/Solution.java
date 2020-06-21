@@ -1,6 +1,4 @@
-package solution.oj_21_merge_two_sorted_list;
-
-import solution.oj_2_add_two_num.ListNode;
+package solution.lc_21_merge_two_sorted_list;
 
 public class Solution {
 
