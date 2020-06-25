@@ -1,4 +1,4 @@
-package solution.oj_28_implement_strStr;
+package solution.lc_28_implement_strStr;
 
 public class Solution {
 	/*
@@ -25,5 +25,10 @@ Returns the index of the first occurrence of needle in haystack, or -1 if needle
 				if(needle.charAt(j) != haystack.charAt(i+j)) break;
 			}
 		}
+	}
+
+	public int strStr2(String haystack, String needle) {
+		if(null == haystack || null == needle) return -1;
+		return haystack.indexOf(needle);
 	}
 }
