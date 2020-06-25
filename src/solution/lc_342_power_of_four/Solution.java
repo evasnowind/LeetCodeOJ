@@ -1,4 +1,4 @@
-package solution.oj_342_power_of_four;
+package solution.lc_342_power_of_four;
 
 public class Solution {
 	/*

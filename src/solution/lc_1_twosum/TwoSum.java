@@ -1,4 +1,4 @@
-package solution.oj_1_twosum;
+package solution.lc_1_twosum;
 
 public class TwoSum {
 

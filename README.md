@@ -15,9 +15,9 @@
 [50 Pow(x,n)](src/solution/oj_50_pow_x_n)
 
 ### List/Linked List
-[1 two sum](src/solution/oj_1_twosum)  
-[2 Add Two Numbers](src/solution/oj_2_add_two_num)    
-[21 merge two sorted list](src/solution/oj_21_merge_two_sorted_list)    
+[1 two sum](src/solution/lc_1_twosum)  
+[2 Add Two Numbers](src/solution/lc_2_add_two_num)    
+[21 merge two sorted list](src/solution/lc_21_merge_two_sorted_list)    
 19 Remove Nth Node From End of List  
 21 Merge Two Sorted Lists  
 24 Swap Nodes in Pairs  
