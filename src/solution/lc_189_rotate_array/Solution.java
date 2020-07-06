@@ -39,4 +39,33 @@ public class Solution {
 			end -= 1;
 		}
 	}
+
+	public void rotate2(int[] nums, int k) {
+		if (null == nums || nums.length == 0 || k <= 0) {
+			return;
+		}
+
+		int n = nums.length;
+		int rotatedCnt = 0, start = 0, curIdx = 0, nextIdx = 0, valToBeRotated = nums[curIdx];
+		int tmp = 0;
+		while (rotatedCnt < n) {
+			//利用了循环移位中，从哪个位置出发，加上m*k（m>=0）之后，必然会回到这个位置的特性作为结束条件
+			do {
+				nextIdx = (curIdx + k) % n;
+				tmp = nums[nextIdx];
+				nums[nextIdx] = valToBeRotated;
+				valToBeRotated = tmp;
+				curIdx = nextIdx;
+				rotatedCnt += 1;
+			} while (curIdx != start);
+
+			start += 1;
+			if (start >= n) {
+				//说明已经遍历完所有元素，结束即可。
+				break;
+			}
+			curIdx = start;
+			valToBeRotated = nums[curIdx];
+		}
+	}
 }
