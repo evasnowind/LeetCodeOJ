@@ -1,4 +1,4 @@
-package solution.oj_344_reverse_string;
+package solution.lc_344_reverse_string;
 
 public class Solution {
 	public String reverseString(String s) {
@@ -10,4 +10,17 @@ public class Solution {
 		}
 		return String.valueOf(str);
     }
+
+	public void reverseString(char[] s) {
+		if (null == s) {
+			return;
+		}
+
+		int len = s.length;
+		for (int i = 0; i < len / 2; i++) {
+			char tmpCh = s[s.length - i - 1];
+			s[s.length - i - 1] = s[i];
+			s[i] =tmpCh;
+		}
+	}
 }

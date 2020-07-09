@@ -1,4 +1,4 @@
-package solution.oj_237_delete_node_in_linkedlist;
+package solution.lc_237_delete_node_in_linkedlist;
 
 public class Solution {
 	/*
@@ -9,4 +9,10 @@ public class Solution {
         node.val = node.next.val;
         node.next = node.next.next;
     }
+}
+
+class ListNode {
+	public int val;
+	public ListNode next;
+	public ListNode(int x){val = x;}
 }
