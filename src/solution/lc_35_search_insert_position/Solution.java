@@ -1,4 +1,4 @@
-package solution.oj_35_search_insert_position;
+package solution.lc_35_search_insert_position;
 
 public class Solution {
     public static int searchInsert(int[] nums, int target) {
@@ -26,6 +26,21 @@ public class Solution {
             }
         }
         return index;
+    }
+
+    public static int searchInsert2(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if(nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return left;
     }
 
     public static void main(String[] args) {
