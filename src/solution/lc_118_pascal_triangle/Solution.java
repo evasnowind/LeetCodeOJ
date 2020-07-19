@@ -44,4 +44,29 @@ public class Solution {
         }
 		return result;
     }
+
+	/**
+	 * 此处代码来自 leetcode 世界服高票答案。
+	 * 本身这道题不难，谁按照描述都应该很容易写出来。
+	 * 但是下面这种方式比较巧妙的利用了上一个计算结果
+	 * @param numRows
+	 * @return
+	 */
+	public List<List<Integer>> generate2(int numRows) {
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		if (numRows == 0) {
+			return res;
+		}
+
+		ArrayList<Integer> row = new ArrayList<>();
+		for (int i = 0; i < numRows; i++) {
+			row.add(0, 1);
+			for(int j = 1; j < row.size() - 1; j++) {
+				row.set(j, row.get(j) + row.get(j+1));
+			}
+			res.add(new ArrayList<>(row));
+		}
+
+		return res;
+	}
 }
