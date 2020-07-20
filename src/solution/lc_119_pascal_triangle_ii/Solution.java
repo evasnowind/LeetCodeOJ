@@ -1,4 +1,4 @@
-package solution.oj_119_pascal_triangle_ii;
+package solution.lc_119_pascal_triangle_ii;
 
 import java.util.ArrayList;
 import java.util.List;

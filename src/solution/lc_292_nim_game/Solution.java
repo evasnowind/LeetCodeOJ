@@ -1,4 +1,4 @@
-package solution.oj_292_nim_game;
+package solution.lc_292_nim_game;
 
 public class Solution {
 	/*

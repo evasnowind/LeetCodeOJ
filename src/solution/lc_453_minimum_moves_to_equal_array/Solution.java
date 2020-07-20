@@ -1,4 +1,4 @@
-package solution.oj_453_minimum_moves_to_equal_array;
+package solution.lc_453_minimum_moves_to_equal_array;
 
 public class Solution {
 

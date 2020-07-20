@@ -1,4 +1,4 @@
-package solution.oj_210_course_schedule_ii;
+package solution.lc_210_course_schedule_ii;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/17
  */
 public class Solution {

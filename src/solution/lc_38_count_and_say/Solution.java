@@ -1,4 +1,4 @@
-package solution.oj_38_count_and_say;
+package solution.lc_38_count_and_say;
 
 public class Solution {
 	/**

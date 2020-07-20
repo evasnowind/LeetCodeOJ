@@ -1,4 +1,4 @@
-package solution.oj_476_number_complement;
+package solution.lc_476_number_complement;
 
 public class Solution {
 	/**

@@ -1,4 +1,4 @@
-package solution.oj_235_lowest_common_ancestor_of_bst;
+package solution.lc_235_lowest_common_ancestor_of_bst;
 
 public class Solution {
 

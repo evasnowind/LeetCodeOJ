@@ -1,4 +1,4 @@
-package solution.oj_94_binary_tree_inorder_traversal;
+package solution.lc_94_binary_tree_inorder_traversal;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/8
  */
 public class Solution {

@@ -1,4 +1,4 @@
-package solution.oj_66_plus_one;
+package solution.lc_66_plus_one;
 
 public class Solution {
 	/*

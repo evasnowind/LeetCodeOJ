@@ -1,4 +1,4 @@
-package solution.oj_201_bitwise_and_of_num_range;
+package solution.lc_201_bitwise_and_of_num_range;
 
 public class Solution {
 

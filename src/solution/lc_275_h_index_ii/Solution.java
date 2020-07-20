@@ -1,4 +1,4 @@
-package solution.oj_275_h_index_ii;
+package solution.lc_275_h_index_ii;
 
 public class Solution {
 	/**

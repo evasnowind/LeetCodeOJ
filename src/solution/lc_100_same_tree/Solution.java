@@ -1,4 +1,4 @@
-package solution.oj_100_same_tree;
+package solution.lc_100_same_tree;
 
 
 public class Solution {

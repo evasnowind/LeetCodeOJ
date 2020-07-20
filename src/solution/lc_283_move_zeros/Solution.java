@@ -1,4 +1,4 @@
-package solution.oj_283_move_zeros;
+package solution.lc_283_move_zeros;
 
 public class Solution {
 	/*

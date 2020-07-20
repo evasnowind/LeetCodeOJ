@@ -1,4 +1,4 @@
-package solution.oj_24_swap_nodes_in_pairs;
+package solution.lc_24_swap_nodes_in_pairs;
 
 public class ListNode {
 	public int val;

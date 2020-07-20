@@ -1,4 +1,4 @@
-package solution.oj_414_third_max_number;
+package solution.lc_414_third_max_number;
 
 public class Solution {
 

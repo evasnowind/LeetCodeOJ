@@ -1,4 +1,4 @@
-package solution.oj_338_count_bits;
+package solution.lc_338_count_bits;
 
 public class Solution {
 	/*

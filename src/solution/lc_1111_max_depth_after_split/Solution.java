@@ -1,7 +1,7 @@
-package solution.oj_1111_max_depth_after_split;
+package solution.lc_1111_max_depth_after_split;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/4/1
  */
 public class Solution {

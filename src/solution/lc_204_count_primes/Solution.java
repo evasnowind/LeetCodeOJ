@@ -1,4 +1,4 @@
-package solution.oj_204_count_primes;
+package solution.lc_204_count_primes;
 
 public class Solution {
 	

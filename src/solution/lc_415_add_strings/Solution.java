@@ -1,10 +1,10 @@
-package solution.oj_415_add_strings;
+package solution.lc_415_add_strings;
 
 import java.net.Socket;
 import java.util.LinkedList;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/6
  */
 public class Solution {

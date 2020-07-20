@@ -1,4 +1,4 @@
-package solution.oj_110_balanced_binary_tree;
+package solution.lc_110_balanced_binary_tree;
 
 public class Solution {
 

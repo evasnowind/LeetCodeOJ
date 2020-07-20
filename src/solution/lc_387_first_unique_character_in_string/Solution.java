@@ -1,4 +1,4 @@
-package solution.oj_387_first_unique_character_in_string;
+package solution.lc_387_first_unique_character_in_string;
 
 public class Solution {
 	/*

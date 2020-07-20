@@ -1,4 +1,4 @@
-package solution.oj_187_repeated_dns_sequences;
+package solution.lc_187_repeated_dns_sequences;
 
 import java.util.ArrayList;
 import java.util.HashSet;

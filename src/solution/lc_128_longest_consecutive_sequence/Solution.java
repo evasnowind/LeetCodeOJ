@@ -1,10 +1,10 @@
-package solution.oj_128_longest_consecutive_sequence;
+package solution.lc_128_longest_consecutive_sequence;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/6/6
  */
 public class Solution {

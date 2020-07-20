@@ -1,4 +1,4 @@
-package solution.oj_147_insertion_sort_list;
+package solution.lc_147_insertion_sort_list;
 
 public class Solution {
 

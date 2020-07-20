@@ -1,10 +1,10 @@
-package solution.oj_146_lru_cache;
+package solution.lc_146_lru_cache;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/25
  */
 public class LRUCache {

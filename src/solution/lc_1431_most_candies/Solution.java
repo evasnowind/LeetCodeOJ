@@ -1,10 +1,10 @@
-package solution.oj_1431_most_candies;
+package solution.lc_1431_most_candies;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/6/1
  */
 public class Solution {

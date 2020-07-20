@@ -1,4 +1,4 @@
-package solution.oj_105_construct_binary_tree_from_preorder_inorder;
+package solution.lc_105_construct_binary_tree_from_preorder_inorder;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package solution.oj_231_power_of_two;
+package solution.lc_231_power_of_two;
 
 public class Solution {
 	/*

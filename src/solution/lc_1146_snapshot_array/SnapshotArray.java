@@ -1,11 +1,11 @@
-package solution.oj_1146_snapshot_array;
+package solution.lc_1146_snapshot_array;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/8/4
  */
 public class SnapshotArray {

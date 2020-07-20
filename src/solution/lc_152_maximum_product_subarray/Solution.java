@@ -1,7 +1,7 @@
-package solution.oj_152_maximum_product_subarray;
+package solution.lc_152_maximum_product_subarray;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/18
  */
 public class Solution {

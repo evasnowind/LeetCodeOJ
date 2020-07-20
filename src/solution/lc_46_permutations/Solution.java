@@ -1,4 +1,4 @@
-package solution.oj_46_permutations;
+package solution.lc_46_permutations;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package solution.oj_171_excel_sheet_column_number;
+package solution.lc_171_excel_sheet_column_number;
 
 public class Solution {
 	/*

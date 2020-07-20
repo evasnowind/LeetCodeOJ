@@ -1,4 +1,4 @@
-package solution.oj_198_house_robber;
+package solution.lc_198_house_robber;
 
 public class Solution {
 	/*

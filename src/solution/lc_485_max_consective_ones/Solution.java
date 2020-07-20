@@ -1,4 +1,4 @@
-package solution.oj_485_max_consective_ones;
+package solution.lc_485_max_consective_ones;
 
 public class Solution {
 	/**

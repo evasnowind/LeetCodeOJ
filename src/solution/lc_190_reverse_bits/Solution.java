@@ -1,4 +1,4 @@
-package solution.oj_190_reverse_bits;
+package solution.lc_190_reverse_bits;
 
 public class Solution {
 	/*

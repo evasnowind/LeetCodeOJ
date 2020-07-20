@@ -1,4 +1,4 @@
-package solution.oj_371_sum_of_two_integer;
+package solution.lc_371_sum_of_two_integer;
 
 public class Solution {
 	/*

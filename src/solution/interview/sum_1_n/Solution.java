@@ -1,7 +1,7 @@
 package solution.interview.sum_1_n;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/6/2
  */
 public class Solution {

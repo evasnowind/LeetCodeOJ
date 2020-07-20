@@ -1,4 +1,4 @@
-package solution.oj_69_sqrt;
+package solution.lc_69_sqrt;
 
 import java.math.BigDecimal;
 

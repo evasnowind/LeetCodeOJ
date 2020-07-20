@@ -1,7 +1,7 @@
-package solution.oj_25_reverse_nodes_in_k_group;
+package solution.lc_25_reverse_nodes_in_k_group;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/16
  */
 public class Solution {

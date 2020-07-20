@@ -1,7 +1,7 @@
-package solution.oj_42_trap;
+package solution.lc_42_trap;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/4/4
  */
 public class Solution {

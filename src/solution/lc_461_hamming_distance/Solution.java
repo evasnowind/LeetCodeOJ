@@ -1,4 +1,4 @@
-package solution.oj_461_hamming_distance;
+package solution.lc_461_hamming_distance;
 
 public class Solution {
 	/**

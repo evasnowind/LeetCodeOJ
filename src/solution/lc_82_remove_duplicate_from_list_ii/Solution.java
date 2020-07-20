@@ -1,4 +1,4 @@
-package solution.oj_82_remove_duplicate_from_list_ii;
+package solution.lc_82_remove_duplicate_from_list_ii;
 
 public class Solution {
 

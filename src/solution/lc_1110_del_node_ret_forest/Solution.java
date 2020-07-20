@@ -1,4 +1,4 @@
-package solution.oj_1110_del_node_ret_forest;
+package solution.lc_1110_del_node_ret_forest;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/7/7
  */
 public class Solution {

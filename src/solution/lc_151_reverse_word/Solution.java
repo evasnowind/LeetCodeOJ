@@ -1,7 +1,7 @@
-package solution.oj_151_reverse_word;
+package solution.lc_151_reverse_word;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/4/10
  */
 public class Solution {

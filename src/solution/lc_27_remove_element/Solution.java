@@ -1,4 +1,4 @@
-package solution.oj_27_remove_element;
+package solution.lc_27_remove_element;
 
 public class Solution {
 	/*

@@ -1,4 +1,4 @@
-package solution.oj_441_arranging_coins;
+package solution.lc_441_arranging_coins;
 
 public class Solution {
 	/*

@@ -1,4 +1,4 @@
-package solution.oj_114_flattern_bt_to_linked_list;
+package solution.lc_114_flattern_bt_to_linked_list;
 
 import java.util.ArrayList;
 import java.util.List;

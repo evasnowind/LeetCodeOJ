@@ -1,4 +1,4 @@
-package solution.oj_106_construct_bt_from_inorder_postorder;
+package solution.lc_106_construct_bt_from_inorder_postorder;
 
 import java.util.HashMap;
 

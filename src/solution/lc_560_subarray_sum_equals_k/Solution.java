@@ -1,7 +1,7 @@
-package solution.oj_560_subarray_sum_equals_k;
+package solution.lc_560_subarray_sum_equals_k;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/15
  */
 public class Solution {

@@ -1,4 +1,4 @@
-package solution.oj_155_min_stack;
+package solution.lc_155_min_stack;
 
 import java.util.ArrayList;
 import java.util.Stack;

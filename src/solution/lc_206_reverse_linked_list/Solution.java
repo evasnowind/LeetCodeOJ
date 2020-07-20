@@ -1,4 +1,4 @@
-package solution.oj_206_reverse_linked_list;
+package solution.lc_206_reverse_linked_list;
 
 public class Solution {
 

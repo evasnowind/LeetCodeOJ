@@ -1,4 +1,4 @@
-package solution.oj_303_range_sum_query_immutable;
+package solution.lc_303_range_sum_query_immutable;
 
 //Your NumArray object will be instantiated and called as such:
 //NumArray numArray = new NumArray(nums);

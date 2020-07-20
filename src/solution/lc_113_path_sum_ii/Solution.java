@@ -1,4 +1,4 @@
-package solution.oj_113_path_sum_ii;
+package solution.lc_113_path_sum_ii;
 
 import java.util.ArrayList;
 import java.util.List;

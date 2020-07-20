@@ -1,4 +1,4 @@
-package solution.oj_1300_find_best_value;
+package solution.lc_1300_find_best_value;
 
 import java.util.Arrays;
 

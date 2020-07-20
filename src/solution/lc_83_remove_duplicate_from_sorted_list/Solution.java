@@ -1,4 +1,4 @@
-package solution.oj_83_remove_duplicate_from_sorted_list;
+package solution.lc_83_remove_duplicate_from_sorted_list;
 
 public class Solution {
     class ListNode {

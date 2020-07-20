@@ -1,4 +1,4 @@
-package solution.oj_202_happy_number;
+package solution.lc_202_happy_number;
 
 public class Solution {
 	/*

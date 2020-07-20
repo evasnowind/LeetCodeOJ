@@ -1,4 +1,4 @@
-package solution.oj_120_triangle;
+package solution.lc_120_triangle;
 
 import java.util.List;
 

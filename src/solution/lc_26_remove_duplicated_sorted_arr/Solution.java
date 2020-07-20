@@ -1,4 +1,4 @@
-package solution.oj_26_remove_duplicated_sorted_arr;
+package solution.lc_26_remove_duplicated_sorted_arr;
 
 public class Solution {
 	/*

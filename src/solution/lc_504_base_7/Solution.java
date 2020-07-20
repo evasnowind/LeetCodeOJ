@@ -1,7 +1,7 @@
-package solution.oj_504_base_7;
+package solution.lc_504_base_7;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/6/23
  */
 public class Solution {

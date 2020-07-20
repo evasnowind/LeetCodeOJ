@@ -1,9 +1,9 @@
-package solution.oj_287_find_duplicate_number;
+package solution.lc_287_find_duplicate_number;
 
 import java.util.Arrays;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/26
  */
 public class Solution {

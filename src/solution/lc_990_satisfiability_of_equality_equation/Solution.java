@@ -1,7 +1,7 @@
-package solution.oj_990_satisfiability_of_equality_equation;
+package solution.lc_990_satisfiability_of_equality_equation;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/6/8
  */
 public class Solution {

@@ -1,4 +1,4 @@
-package solution.oj_313_super_ugly_number;
+package solution.lc_313_super_ugly_number;
 
 public class Solution {
 	/*

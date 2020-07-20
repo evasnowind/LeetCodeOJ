@@ -1,4 +1,4 @@
-package solution.oj_89_gray_code;
+package solution.lc_89_gray_code;
 
 import java.util.ArrayList;
 import java.util.List;

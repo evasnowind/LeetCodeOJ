@@ -1,4 +1,4 @@
-package solution.oj_501_find_mode_in_bst;
+package solution.lc_501_find_mode_in_bst;
 
 public class Solution {
 

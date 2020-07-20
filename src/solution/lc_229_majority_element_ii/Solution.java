@@ -1,4 +1,4 @@
-package solution.oj_229_majority_element_ii;
+package solution.lc_229_majority_element_ii;
 
 import java.util.ArrayList;
 import java.util.List;

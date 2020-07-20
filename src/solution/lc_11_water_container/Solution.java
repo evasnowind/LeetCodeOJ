@@ -1,4 +1,4 @@
-package solution.oj_11_water_container;
+package solution.lc_11_water_container;
 
 public class Solution {
 	/*

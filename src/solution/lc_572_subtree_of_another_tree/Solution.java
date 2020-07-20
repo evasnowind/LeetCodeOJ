@@ -1,7 +1,7 @@
-package solution.oj_572_subtree_of_another_tree;
+package solution.lc_572_subtree_of_another_tree;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/7
  */
 public class Solution {

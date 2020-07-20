@@ -1,4 +1,4 @@
-package solution.oj_8_string_to_integer;
+package solution.lc_8_string_to_integer;
 
 public class Solution {
 	/*

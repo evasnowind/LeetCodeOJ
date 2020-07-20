@@ -1,7 +1,7 @@
-package solution.oj_1110_del_node_ret_forest;
+package solution.lc_1110_del_node_ret_forest;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/6/30
  */
 public class TreeNode {

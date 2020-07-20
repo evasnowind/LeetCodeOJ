@@ -1,4 +1,4 @@
-package solution.oj_389_find_the_difference;
+package solution.lc_389_find_the_difference;
 
 public class Solution {
 	/*

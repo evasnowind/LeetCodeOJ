@@ -1,7 +1,7 @@
-package solution.oj_1175_prime_arrangements;
+package solution.lc_1175_prime_arrangements;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/9/7
  */
 public class Solution {

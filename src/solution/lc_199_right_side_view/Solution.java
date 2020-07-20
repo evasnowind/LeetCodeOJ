@@ -1,4 +1,4 @@
-package solution.oj_199_right_side_view;
+package solution.lc_199_right_side_view;
 
 import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/4/22
  */
 public class Solution {

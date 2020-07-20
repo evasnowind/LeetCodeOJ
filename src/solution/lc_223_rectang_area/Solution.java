@@ -1,4 +1,4 @@
-package solution.oj_223_rectang_area;
+package solution.lc_223_rectang_area;
 
 public class Solution {
 	/*

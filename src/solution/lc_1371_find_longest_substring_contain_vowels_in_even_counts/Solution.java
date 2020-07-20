@@ -1,9 +1,9 @@
-package solution.oj_1371_find_longest_substring_contain_vowels_in_even_counts;
+package solution.lc_1371_find_longest_substring_contain_vowels_in_even_counts;
 
 import java.util.Arrays;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/20
  */
 public class Solution {

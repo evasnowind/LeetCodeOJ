@@ -1,4 +1,4 @@
-package solution.oj_36_valid_sudoku;
+package solution.lc_36_valid_sudoku;
 
 public class Solution {
 	/*

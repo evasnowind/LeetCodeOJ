@@ -1,4 +1,4 @@
-package solution.oj_160_intersection_of_two_linked_list;
+package solution.lc_160_intersection_of_two_linked_list;
 
 public class Solution {
 

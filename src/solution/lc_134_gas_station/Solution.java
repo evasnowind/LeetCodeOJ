@@ -1,4 +1,4 @@
-package solution.oj_134_gas_station;
+package solution.lc_134_gas_station;
 
 public class Solution {
 	/*

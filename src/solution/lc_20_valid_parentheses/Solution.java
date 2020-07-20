@@ -1,4 +1,4 @@
-package solution.oj_20_valid_parentheses;
+package solution.lc_20_valid_parentheses;
 
 import java.util.Stack;
 

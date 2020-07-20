@@ -1,7 +1,7 @@
-package solution.oj_1275_tic_tac_toe;
+package solution.lc_1275_tic_tac_toe;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/3/1
  */
 public class Solution {

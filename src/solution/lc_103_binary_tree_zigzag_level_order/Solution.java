@@ -1,4 +1,4 @@
-package solution.oj_103_binary_tree_zigzag_level_order;
+package solution.lc_103_binary_tree_zigzag_level_order;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

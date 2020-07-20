@@ -1,4 +1,4 @@
-package solution.oj_328_odd_even_linked_list;
+package solution.lc_328_odd_even_linked_list;
 
 public class Solution {
 

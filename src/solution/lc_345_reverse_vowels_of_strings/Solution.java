@@ -1,4 +1,4 @@
-package solution.oj_345_reverse_vowels_of_strings;
+package solution.lc_345_reverse_vowels_of_strings;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package solution.oj_107_binary_tree_level_order_traversal_ii;
+package solution.lc_107_binary_tree_level_order_traversal_ii;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

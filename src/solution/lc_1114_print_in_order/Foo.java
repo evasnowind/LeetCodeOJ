@@ -1,7 +1,7 @@
-package solution.oj_1114_print_in_order;
+package solution.lc_1114_print_in_order;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/9/14
  */
 public class Foo {

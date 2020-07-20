@@ -1,7 +1,7 @@
-package solution.oj_617_merge_two_binary_tree;
+package solution.lc_617_merge_two_binary_tree;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/6
  */
 public class Solution {

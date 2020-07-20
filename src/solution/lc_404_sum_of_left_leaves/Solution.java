@@ -1,4 +1,4 @@
-package solution.oj_404_sum_of_left_leaves;
+package solution.lc_404_sum_of_left_leaves;
 
 
 import java.util.ArrayList;

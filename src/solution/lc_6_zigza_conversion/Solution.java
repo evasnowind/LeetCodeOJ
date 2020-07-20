@@ -1,4 +1,4 @@
-package solution.oj_6_zigza_conversion;
+package solution.lc_6_zigza_conversion;
 
 public class Solution {
 	/**

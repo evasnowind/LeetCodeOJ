@@ -1,4 +1,4 @@
-package solution.oj_162_find_peak_element;
+package solution.lc_162_find_peak_element;
 
 public class Solution {
 	/*

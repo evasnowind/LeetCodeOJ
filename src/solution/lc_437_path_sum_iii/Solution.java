@@ -1,4 +1,4 @@
-package solution.oj_437_path_sum_iii;
+package solution.lc_437_path_sum_iii;
 
 import java.util.Stack;
 

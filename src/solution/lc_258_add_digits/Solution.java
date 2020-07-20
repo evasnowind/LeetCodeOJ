@@ -1,4 +1,4 @@
-package solution.oj_258_add_digits;
+package solution.lc_258_add_digits;
 
 public class Solution {
 	/*

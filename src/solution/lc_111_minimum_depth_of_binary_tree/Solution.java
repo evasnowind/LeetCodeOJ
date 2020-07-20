@@ -1,4 +1,4 @@
-package solution.oj_111_minimum_depth_of_binary_tree;
+package solution.lc_111_minimum_depth_of_binary_tree;
 
 public class Solution {
 

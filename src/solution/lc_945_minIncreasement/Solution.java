@@ -1,9 +1,9 @@
-package solution.oj_945_minIncreasement;
+package solution.lc_945_minIncreasement;
 
 import java.util.*;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/3/22
  */
 public class Solution {

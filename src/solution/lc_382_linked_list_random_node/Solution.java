@@ -1,4 +1,4 @@
-package solution.oj_382_linked_list_random_node;
+package solution.lc_382_linked_list_random_node;
 
 import java.util.Random;
 

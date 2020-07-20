@@ -1,4 +1,4 @@
-package solution.oj_4_median_in_two_sorted_array;
+package solution.lc_4_median_in_two_sorted_array;
 
 /**
  * 

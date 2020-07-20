@@ -1,7 +1,7 @@
-package solution.oj_478_generate_random_point_in_circle;
+package solution.lc_478_generate_random_point_in_circle;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/8/24
  */
 public class Solution {

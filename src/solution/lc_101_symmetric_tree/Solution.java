@@ -1,4 +1,4 @@
-package solution.oj_101_symmetric_tree;
+package solution.lc_101_symmetric_tree;
 
 public class Solution {
 

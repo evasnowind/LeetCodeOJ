@@ -1,4 +1,4 @@
-package solution.oj_168_excel_sheet_column_title;
+package solution.lc_168_excel_sheet_column_title;
 
 public class Solution {
 	/*

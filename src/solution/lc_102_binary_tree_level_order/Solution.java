@@ -1,4 +1,4 @@
-package solution.oj_102_binary_tree_level_order;
+package solution.lc_102_binary_tree_level_order;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

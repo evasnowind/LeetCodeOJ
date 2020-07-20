@@ -1,4 +1,4 @@
-package solution.oj_143_reorder_list;
+package solution.lc_143_reorder_list;
 
 public class Solution {
 

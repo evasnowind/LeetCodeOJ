@@ -1,4 +1,4 @@
-package solution.oj_61_rotate_list;
+package solution.lc_61_rotate_list;
 
 public class Solution {
 

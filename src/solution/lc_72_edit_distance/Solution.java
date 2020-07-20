@@ -1,7 +1,7 @@
-package solution.oj_72_edit_distance;
+package solution.lc_72_edit_distance;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/4/6
  */
 public class Solution {

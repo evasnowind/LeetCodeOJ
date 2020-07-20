@@ -1,4 +1,4 @@
-package solution.oj_169_majority_element;
+package solution.lc_169_majority_element;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package solution.oj_455_assign_cookies;
+package solution.lc_455_assign_cookies;
 
 import java.util.Arrays;
 

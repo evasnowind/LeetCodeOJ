@@ -1,4 +1,4 @@
-package solution.oj_222_count_complete_tree_nodes;
+package solution.lc_222_count_complete_tree_nodes;
 
 public class Solution {
 

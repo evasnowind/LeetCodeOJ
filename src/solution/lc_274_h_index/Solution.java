@@ -1,4 +1,4 @@
-package solution.oj_274_h_index;
+package solution.lc_274_h_index;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,7 +1,7 @@
-package solution.oj_837_new21game;
+package solution.lc_837_new21game;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/6/3
  */
 public class Solution {

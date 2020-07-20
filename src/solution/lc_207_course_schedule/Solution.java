@@ -1,4 +1,4 @@
-package solution.oj_207_course_schedule;
+package solution.lc_207_course_schedule;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,7 +1,7 @@
-package solution.oj_50_pow_x_n;
+package solution.lc_50_pow_x_n;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/11
  */
 public class Solution {

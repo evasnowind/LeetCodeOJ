@@ -1,4 +1,4 @@
-package solution.oj_205_isomorphic_string;
+package solution.lc_205_isomorphic_string;
 
 public class Solution {
 	/*

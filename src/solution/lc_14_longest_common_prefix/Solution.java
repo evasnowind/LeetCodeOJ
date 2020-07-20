@@ -1,4 +1,4 @@
-package solution.oj_14_longest_common_prefix;
+package solution.lc_14_longest_common_prefix;
 
 import java.util.Arrays;
 

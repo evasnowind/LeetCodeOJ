@@ -1,4 +1,4 @@
-package solution.oj_9_palindrome_number;
+package solution.lc_9_palindrome_number;
 
 public class Solution {
 	/*

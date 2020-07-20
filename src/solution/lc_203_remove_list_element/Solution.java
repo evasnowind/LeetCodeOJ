@@ -1,4 +1,4 @@
-package solution.oj_203_remove_list_element;
+package solution.lc_203_remove_list_element;
 
 public class Solution {
 

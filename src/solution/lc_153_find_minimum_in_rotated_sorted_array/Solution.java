@@ -1,4 +1,4 @@
-package solution.oj_153_find_minimum_in_rotated_sorted_array;
+package solution.lc_153_find_minimum_in_rotated_sorted_array;
 
 public class Solution {
 	/*

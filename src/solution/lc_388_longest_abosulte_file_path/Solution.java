@@ -1,4 +1,4 @@
-package solution.oj_388_longest_abosulte_file_path;
+package solution.lc_388_longest_abosulte_file_path;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

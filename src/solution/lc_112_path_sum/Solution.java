@@ -1,4 +1,4 @@
-package solution.oj_112_path_sum;
+package solution.lc_112_path_sum;
 
 public class Solution {
 

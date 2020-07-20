@@ -1,4 +1,4 @@
-package solution.oj_278_first_bad_version;
+package solution.lc_278_first_bad_version;
 
 public class Solution{
 	/*

@@ -1,4 +1,4 @@
-package solution.oj_127_word_ladder;
+package solution.lc_127_word_ladder;
 
 import java.util.HashSet;
 import java.util.LinkedList;

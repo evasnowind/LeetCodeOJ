@@ -1,4 +1,4 @@
-package solution.oj_129_root_to_leaf_numbers;
+package solution.lc_129_root_to_leaf_numbers;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/8
  */
 public class Solution {

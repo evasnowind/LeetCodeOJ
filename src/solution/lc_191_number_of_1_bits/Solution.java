@@ -1,4 +1,4 @@
-package solution.oj_191_number_of_1_bits;
+package solution.lc_191_number_of_1_bits;
 
 public class Solution {
 	// you need to treat n as an unsigned value

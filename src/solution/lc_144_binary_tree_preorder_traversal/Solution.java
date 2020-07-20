@@ -1,4 +1,4 @@
-package solution.oj_144_binary_tree_preorder_traversal;
+package solution.lc_144_binary_tree_preorder_traversal;
 
 import java.util.ArrayList;
 import java.util.List;

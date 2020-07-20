@@ -1,4 +1,4 @@
-package solution.oj_7_reverse_integer;
+package solution.lc_7_reverse_integer;
 
 public class Solution {
 	/*

@@ -1,4 +1,4 @@
-package solution.oj_257_binary_tree_paths;
+package solution.lc_257_binary_tree_paths;
 
 import java.util.ArrayList;
 import java.util.List;

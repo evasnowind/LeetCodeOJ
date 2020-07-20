@@ -1,4 +1,4 @@
-package solution.oj_1124_longest_wpi;
+package solution.lc_1124_longest_wpi;
 
 import java.util.HashMap;
 import java.util.Map;

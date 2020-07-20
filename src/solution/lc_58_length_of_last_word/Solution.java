@@ -1,4 +1,4 @@
-package solution.oj_58_length_of_last_word;
+package solution.lc_58_length_of_last_word;
 
 public class Solution {
 	/*

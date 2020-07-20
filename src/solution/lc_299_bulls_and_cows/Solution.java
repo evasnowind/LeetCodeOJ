@@ -1,4 +1,4 @@
-package solution.oj_299_bulls_and_cows;
+package solution.lc_299_bulls_and_cows;
 
 public class Solution {
 	/*

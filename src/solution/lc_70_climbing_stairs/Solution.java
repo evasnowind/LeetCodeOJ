@@ -1,4 +1,4 @@
-package solution.oj_70_climbing_stairs;
+package solution.lc_70_climbing_stairs;
 
 public class Solution {
 	/*

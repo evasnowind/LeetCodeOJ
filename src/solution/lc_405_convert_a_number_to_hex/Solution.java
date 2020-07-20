@@ -1,4 +1,4 @@
-package solution.oj_405_convert_a_number_to_hex;
+package solution.lc_405_convert_a_number_to_hex;
 
 public class Solution {
 	/*

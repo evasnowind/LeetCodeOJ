@@ -1,4 +1,4 @@
-package solution.oj_341_flatten_nest_list_iterator;
+package solution.lc_341_flatten_nest_list_iterator;
 
 import java.util.List;
 

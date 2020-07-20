@@ -1,4 +1,4 @@
-package solution.oj_297_serial_deserial_binary_tree;
+package solution.lc_297_serial_deserial_binary_tree;
 
 import java.util.LinkedList;
 import java.util.Queue;

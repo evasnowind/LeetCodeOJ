@@ -1,4 +1,4 @@
-package solution.oj_88_merge_sorted_array;
+package solution.lc_88_merge_sorted_array;
 
 public class Solution {
 

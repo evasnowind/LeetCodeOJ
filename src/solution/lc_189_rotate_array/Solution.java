@@ -1,4 +1,4 @@
-package solution.oj_189_rotate_array;
+package solution.lc_189_rotate_array;
 
 public class Solution {
 	/*

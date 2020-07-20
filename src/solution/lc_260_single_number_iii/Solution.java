@@ -1,4 +1,4 @@
-package solution.oj_260_single_number_iii;
+package solution.lc_260_single_number_iii;
 
 public class Solution {
 	/*

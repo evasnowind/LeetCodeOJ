@@ -1,4 +1,4 @@
-package solution.oj_447_number_of_boomerangs;
+package solution.lc_447_number_of_boomerangs;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package solution.oj_55_jump_game;
+package solution.lc_55_jump_game;
 
 public class Solution {
 	/*

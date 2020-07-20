@@ -1,4 +1,4 @@
-package solution.oj_492_construct_the_rectangle;
+package solution.lc_492_construct_the_rectangle;
 
 public class Solution {
 	/*

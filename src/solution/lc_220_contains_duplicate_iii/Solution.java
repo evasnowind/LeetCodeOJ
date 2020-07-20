@@ -1,9 +1,9 @@
-package solution.oj_220_contains_duplicate_iii;
+package solution.lc_220_contains_duplicate_iii;
 
 import java.util.TreeSet;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/9/25
  */
 public class Solution {

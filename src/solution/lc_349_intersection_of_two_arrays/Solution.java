@@ -1,4 +1,4 @@
-package solution.oj_349_intersection_of_two_arrays;
+package solution.lc_349_intersection_of_two_arrays;
 
 import java.util.HashSet;
 import java.util.Iterator;

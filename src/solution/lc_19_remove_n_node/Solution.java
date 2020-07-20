@@ -1,4 +1,4 @@
-package solution.oj_19_remove_n_node;
+package solution.lc_19_remove_n_node;
 
 public class Solution {
 

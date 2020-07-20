@@ -1,4 +1,4 @@
-package solution.oj_12_integer_to_roman;
+package solution.lc_12_integer_to_roman;
 
 public class Solution {
 	

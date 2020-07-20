@@ -1,4 +1,4 @@
-package solution.oj_264_ugly_number_ii;
+package solution.lc_264_ugly_number_ii;
 
 public class Solution {
 	/*

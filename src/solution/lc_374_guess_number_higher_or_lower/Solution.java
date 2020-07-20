@@ -1,4 +1,4 @@
-package solution.oj_374_guess_number_higher_or_lower;
+package solution.lc_374_guess_number_higher_or_lower;
 
 public class Solution extends GuessGame{
 	/*

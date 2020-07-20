@@ -1,4 +1,4 @@
-package solution.oj_125_valid_palindrome;
+package solution.lc_125_valid_palindrome;
 
 public class Solution {
 	public boolean isPalindrome(String s) {

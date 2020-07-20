@@ -1,4 +1,4 @@
-package solution.oj_131_palindrome_partitioning;
+package solution.lc_131_palindrome_partitioning;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

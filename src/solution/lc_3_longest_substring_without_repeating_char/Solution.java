@@ -1,10 +1,10 @@
-package solution.oj_3_longest_substring_without_repeating_char;
+package solution.lc_3_longest_substring_without_repeating_char;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/2
  */
 public class Solution {

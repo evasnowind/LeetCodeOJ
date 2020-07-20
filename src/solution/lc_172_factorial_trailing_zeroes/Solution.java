@@ -1,4 +1,4 @@
-package solution.oj_172_factorial_trailing_zeroes;
+package solution.lc_172_factorial_trailing_zeroes;
 
 public class Solution {
 	/**

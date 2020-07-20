@@ -1,4 +1,4 @@
-package solution.oj_242_valid_anagram;
+package solution.lc_242_valid_anagram;
 
 public class Solution {
 	/*

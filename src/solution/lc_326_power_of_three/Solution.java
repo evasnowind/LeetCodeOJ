@@ -1,4 +1,4 @@
-package solution.oj_326_power_of_three;
+package solution.lc_326_power_of_three;
 
 public class Solution {
 	/*

@@ -1,4 +1,4 @@
-package solution.oj_290_word_pattern;
+package solution.lc_290_word_pattern;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,11 +1,11 @@
-package solution.oj_380_insert_delete_getrandom_o1;
+package solution.lc_380_insert_delete_getrandom_o1;
 
 import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 
 import java.util.*;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/8/18
  */
 public class Solution {

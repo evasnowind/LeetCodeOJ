@@ -1,4 +1,4 @@
-package solution.oj_448_find_all_numbers_disappeared_in_array;
+package solution.lc_448_find_all_numbers_disappeared_in_array;
 
 import java.util.ArrayList;
 import java.util.List;

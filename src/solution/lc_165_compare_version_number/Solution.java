@@ -1,4 +1,4 @@
-package solution.oj_165_compare_version_number;
+package solution.lc_165_compare_version_number;
 
 public class Solution {
 	/**

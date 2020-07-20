@@ -1,10 +1,10 @@
-package solution.oj_1128_num_of_equivalent_domino_pair;
+package solution.lc_1128_num_of_equivalent_domino_pair;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/7/21
  */
 public class Solution {

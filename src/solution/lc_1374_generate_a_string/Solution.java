@@ -1,7 +1,7 @@
-package solution.oj_1374_generate_a_string;
+package solution.lc_1374_generate_a_string;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/3/9
  */
 public class Solution {

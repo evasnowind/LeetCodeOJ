@@ -1,4 +1,4 @@
-package solution.oj_217_contains_duplicate;
+package solution.lc_217_contains_duplicate;
 
 import java.util.Arrays;
 

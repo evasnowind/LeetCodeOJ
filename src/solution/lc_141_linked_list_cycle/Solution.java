@@ -1,4 +1,4 @@
-package solution.oj_141_linked_list_cycle;
+package solution.lc_141_linked_list_cycle;
 
 public class Solution {
 

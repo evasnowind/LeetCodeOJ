@@ -1,10 +1,10 @@
-package solution.oj_200_island_num;
+package solution.lc_200_island_num;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/4/20
  */
 public class Solution {

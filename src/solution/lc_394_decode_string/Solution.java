@@ -1,9 +1,9 @@
-package solution.oj_394_decode_string;
+package solution.lc_394_decode_string;
 
 import java.util.LinkedList;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2020/5/28
  */
 public class Solution {

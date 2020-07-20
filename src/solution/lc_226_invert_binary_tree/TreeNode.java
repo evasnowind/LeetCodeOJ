@@ -1,4 +1,4 @@
-package solution.oj_226_invert_binary_tree;
+package solution.lc_226_invert_binary_tree;
 
 public class TreeNode {
 	public int val;

@@ -1,4 +1,4 @@
-package solution.oj_98_validate_binary_search_tree;
+package solution.lc_98_validate_binary_search_tree;
 
 public class Solution {
     class TreeNode {

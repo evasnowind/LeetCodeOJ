@@ -1,4 +1,4 @@
-package solution.oj_268_missing_number;
+package solution.lc_268_missing_number;
 
 public class Solution {
 	/*

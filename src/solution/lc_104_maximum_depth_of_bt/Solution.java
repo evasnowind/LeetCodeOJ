@@ -1,4 +1,4 @@
-package solution.oj_104_maximum_depth_of_bt;
+package solution.lc_104_maximum_depth_of_bt;
 
 public class Solution {
 

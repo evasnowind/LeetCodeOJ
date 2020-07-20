@@ -1,4 +1,4 @@
-package solution.oj_228_summary_ranges;
+package solution.lc_228_summary_ranges;
 
 import java.util.ArrayList;
 import java.util.List;

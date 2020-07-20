@@ -1,7 +1,7 @@
-package solution.oj_1038_bst_to_gst;
+package solution.lc_1038_bst_to_gst;
 
 /**
- * @author chenglong.yu@100credit.com
+ * @author chenglong.yu
  * created on 2019/6/30
  */
 public class Solution {
