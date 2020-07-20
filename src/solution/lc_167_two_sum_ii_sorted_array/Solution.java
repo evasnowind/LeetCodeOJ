@@ -1,4 +1,4 @@
-package solution.oj_167_two_sum_ii_sorted_array;
+package solution.lc_167_two_sum_ii_sorted_array;
 
 public class Solution {
 	/*
