@@ -26,6 +26,18 @@ public class Solution {
         }
         return distance;
     }
+
+    public int hammingDistance2(int x, int y) {
+		int xorRes = x ^ y;
+		int sum = 0;
+
+		while(xorRes != 0) {
+			xorRes = xorRes & (xorRes - 1);
+			sum += 1;
+		}
+
+		return sum;
+	}
 	
 	public static void main(String[] args){
 		Solution s = new Solution();
