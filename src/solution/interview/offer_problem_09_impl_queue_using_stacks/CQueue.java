@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/6/30
  */
 public class CQueue {

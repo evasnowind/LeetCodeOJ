@@ -3,7 +3,7 @@ package solution.leetcode.lc_16_3sum_closest;
 import java.util.Arrays;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/6/24
  */
 public class Solution {

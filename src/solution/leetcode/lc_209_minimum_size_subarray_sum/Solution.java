@@ -1,7 +1,7 @@
 package solution.leetcode.lc_209_minimum_size_subarray_sum;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/6/28
  */
 public class Solution {

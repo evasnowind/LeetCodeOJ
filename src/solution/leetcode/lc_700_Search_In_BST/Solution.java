@@ -1,7 +1,7 @@
 package solution.leetcode.lc_700_Search_In_BST;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/6/25
  */
 public class Solution {

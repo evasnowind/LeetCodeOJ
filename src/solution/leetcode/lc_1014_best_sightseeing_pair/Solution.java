@@ -1,7 +1,7 @@
 package solution.leetcode.lc_1014_best_sightseeing_pair;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/6/17
  */
 public class Solution {

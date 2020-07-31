@@ -1,7 +1,7 @@
 package solution.leetcode.lc_96_unique_bst;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/7/15
  */
 public class Solution {

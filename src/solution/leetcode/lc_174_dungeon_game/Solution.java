@@ -1,7 +1,7 @@
 package solution.leetcode.lc_174_dungeon_game;
 
 /**
- * @author chenglong.yu@brgroup.com
+ * @author chenglong.yu
  * created on 2020/7/12
  */
 public class Solution {
