@@ -19,7 +19,7 @@ public class Solution {
         int n1, n2, tmp;
 
         LinkedList<Character> list = new LinkedList<Character>();
-        while(idx1 >= 0 || idx2 >= 0) {
+        while(idx1 >= 0 || idx2 >= 0 || carry > 0) {
             if (idx1 >= 0) {
                 n1 = (int)num1Chs[idx1] - (int)('0');
             } else {

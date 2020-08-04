@@ -60,4 +60,9 @@ public class Solution {
 		}
 		return count == numCourses;
     }
+
+    public boolean canFinish2(int numCourses, int[][] prerequisites) {
+		//TODO 
+		return false;
+	}
 }
