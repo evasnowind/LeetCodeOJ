@@ -1,7 +1,9 @@
 package solution.oj_350_intersection_of_two_arrays_ii;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 public class Solution {
 	/*
@@ -32,4 +34,36 @@ public class Solution {
         }
 		return r;
     }
+
+	/**
+	 * 先排序，然后用双指针
+	 *
+	 * @param nums1
+	 * @param nums2
+	 * @return
+	 */
+	public int[] intersect2(int[] nums1, int[] nums2) {
+		Arrays.sort(nums1);
+		Arrays.sort(nums2);
+
+		int p1 = 0, p2 = 0;
+		List<Integer> res = new ArrayList<>();
+		while (p1 < nums1.length && p2 < nums2.length) {
+			if (nums1[p1] == nums2[p2]) {
+				res.add(nums1[p1]);
+				p1 += 1;
+				p2 += 1;
+			} else if (nums1[p1] < nums2[p2]) {
+				p1 += 1;
+			} else if (nums1[p1] > nums2[p2]) {
+				p2 += 1;
+			}
+		}
+
+		int[] arr = new int[res.size()];
+		for (int i = 0; i < res.size(); i++) {
+			arr[i] = res.get(i);
+		}
+		return arr;
+	}
 }
