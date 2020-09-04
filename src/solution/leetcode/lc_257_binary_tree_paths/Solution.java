@@ -1,6 +1,8 @@
 package solution.leetcode.lc_257_binary_tree_paths;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Solution {
@@ -59,5 +61,63 @@ public class Solution {
 			getPathString(root.left, res, curPath + root.val + "->");
 			getPathString(root.right, res, curPath + root.val + "->");
 		}
+	}
+
+	private void getPathString2(TreeNode root, List<String> res, StringBuilder curPath) {
+		//递归结束条件：当前为叶子节点，保存结果
+		if (null == root.left && null == root.right) {
+			curPath.append("->").append(root.val);
+			curPath.delete(0,2);
+			res.add(curPath.toString());
+			return;
+		}
+
+		//处理当前节点
+		curPath.append("->").append(root.val);
+		if (null != root.left) {
+			StringBuilder leftBuilder = new StringBuilder();
+			leftBuilder.append(curPath);
+			getPathString2(root.left, res, leftBuilder);
+		}
+		if (null != root.right) {
+			StringBuilder rightBuilder = new StringBuilder();
+			rightBuilder.append(curPath);
+			getPathString2(root.right, res, rightBuilder);
+		}
+	}
+
+
+	public List<String> binaryTreePaths2(TreeNode root) {
+		List<String> res = new ArrayList<String>();
+		if(null == root) {
+			return res;
+		}
+
+		Deque<TreeNode> nodeQueue = new LinkedList<>();
+		Deque<String> pathQueue = new LinkedList<>();
+
+		nodeQueue.offer(root);
+		pathQueue.offer(Integer.toString(root.val));
+		while(!nodeQueue.isEmpty()) {
+			TreeNode curNode = nodeQueue.poll();
+			String curPath = pathQueue.poll();
+			if (null == curNode.left && null == curNode.right) {
+				res.add(curPath);
+				continue;
+			}
+			TreeNode leftNode = curNode.left;
+			if (null != leftNode) {
+				String leftPath = curPath + "->" + leftNode.val;
+				nodeQueue.offer(leftNode);
+				pathQueue.offer(leftPath);
+			}
+			TreeNode rightNode = curNode.right;
+			if (null != rightNode) {
+				String rightPath = curPath + "->" + rightNode.val;
+				nodeQueue.offer(rightNode);
+				pathQueue.offer(rightPath);
+			}
+		}
+		return res;
 	}
 }
