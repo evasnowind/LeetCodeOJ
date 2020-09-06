@@ -1,6 +1,7 @@
 package solution.leetcode.lc_107_binary_tree_level_order_traversal_ii;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -53,4 +54,33 @@ public class Solution {
 		}
         return res;
     }
+
+
+	public List<List<Integer>> levelOrderBottom2(TreeNode root) {
+		LinkedList<List<Integer>> res = new LinkedList<>();
+		if (null == root) {
+			return res;
+		}
+
+		TreeNode cur = root;
+		Deque<TreeNode> queue = new LinkedList<>();
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			int size = queue.size();
+			List<Integer> levelList = new ArrayList<>();
+			for (int i = 0; i < size; i++) {
+				TreeNode node = queue.poll();
+				levelList.add(node.val);
+				if (null != node.left) {
+					queue.offer(node.left);
+				}
+				if (null != node.right) {
+					queue.offer(node.right);
+				}
+			}
+			res.add(0, levelList);
+		}
+		return res;
+	}
+
 }
