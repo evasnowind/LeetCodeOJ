@@ -1,6 +1,8 @@
 package solution.leetcode.lc_169_majority_element;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Solution {
 	/*
@@ -17,4 +19,19 @@ public class Solution {
 		Arrays.sort(nums);
         return nums[nums.length / 2];
     }
+
+    public int majorityElement2(int[] nums) {
+		Map<Integer, Integer> counts = new HashMap<>();
+		for (int num : nums) {
+			counts.put(num, counts.getOrDefault(num, 0) + 1);
+		}
+
+		Map.Entry<Integer, Integer> majorityEntry = null;
+		for (Map.Entry<Integer, Integer> entry : counts.entrySet()) {
+			if (null == majorityEntry || majorityEntry.getValue() < entry.getValue()) {
+				majorityEntry = entry;
+			}
+		}
+		return majorityEntry.getKey();
+	}
 }
