@@ -9,6 +9,8 @@ public class Solution {
 	 * 				f[i] = f[i / 2] + i % 2 （或者是i&1，效率更高）
 	 * 			原因在于： 第i个数是由第i/2个数左移移一位获得，但左移后最后一位还需要单独
 	 * 			判断是否有1，即判断奇偶性
+	 * 分析参见
+	 * https://leetcode-cn.com/problems/counting-bits/solution/bi-te-wei-ji-shu-by-leetcode/
 	 * 
 	 * 			另一种思路，也是hint给出的，discuss上有提到，即根据不同区间来判断，每个
 	 * 			区间都是二进制位数相同，每当是2的乘方时，只是在最前面加个1，后面的变化与
