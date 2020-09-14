@@ -39,6 +39,16 @@ public class Solution {
         TreeNode curNode = root;
         while (null != curNode || !stack.isEmpty()) {
             while(null != curNode) {
+                /*
+                   此处要保证每次入栈时，curNode不是null。
+                   方便后面弹栈、加入结果数组res时不用做判断。
+                   要做到这一点，就要求curNode一开始就赋值root，
+                   并且此处要先入栈再curNode = curNode.left。
+
+                   实际上这一步就是利用栈去模拟中序遍历找最左
+                   节点的过程，找到最后一个叶子之后，此时再弹栈，
+                   拿到的就是中序遍历的节点。
+                 */
                 stack.push(curNode);
                 curNode = curNode.left;
             }
@@ -50,8 +60,6 @@ public class Solution {
 
         return res;
     }
-
-
 }
 
 class TreeNode {
