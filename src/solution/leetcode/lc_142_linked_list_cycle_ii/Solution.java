@@ -45,10 +45,10 @@ public class Solution {
 		}
 		return slow;
     }
-	
-	class ListNode {
-		public int val;
-		public ListNode next;
-		public ListNode(int x){val = x;}
-	}
+}
+
+class ListNode {
+	public int val;
+	public ListNode next;
+	public ListNode(int x){val = x;}
 }

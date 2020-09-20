@@ -5,14 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
-	class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int x) {
-			val = x;
-		}
-	}
+
 
 	/*
 	 * 分析：很简单的一道题目，其实就是树的遍历过程，下面的代码是我一开始想到的，没做
@@ -46,5 +39,47 @@ public class Solution {
 		}
 		traverseTree(root.left, true, leaves);
 		traverseTree(root.right, false, leaves);
+	}
+	
+	public int sumOfLeftLeaves2(TreeNode root) {
+		if (null == root) {
+			return 0;
+		}
+
+		int sum = 0;
+		if (null != root.left && null == root.left.left && null == root.left.right) {
+			sum += root.left.val;
+		}
+
+		if (null != root.left) {
+			sum += sumOfLeftLeaves2(root.left);
+		}
+		if (null != root.right) {
+			sum += sumOfLeftLeaves2(root.right);
+		}
+
+		return sum;
+	}
+
+	public static void main(String[] args) {
+		TreeNode root = new TreeNode(3);
+		root.left = new TreeNode(9);
+		TreeNode right = new TreeNode(20);
+		right.left = new TreeNode(15);
+		right.right = new TreeNode(7);
+
+		root.right = right;
+
+		Solution s = new Solution();
+		int sum = s.sumOfLeftLeaves2(root);
+		System.out.println(sum);
+	}
+}
+class TreeNode {
+	int val;
+	TreeNode left;
+	TreeNode right;
+	TreeNode(int x) {
+		val = x;
 	}
 }
