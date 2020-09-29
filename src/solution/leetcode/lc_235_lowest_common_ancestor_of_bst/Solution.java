@@ -1,5 +1,8 @@
 package solution.leetcode.lc_235_lowest_common_ancestor_of_bst;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
 
 	class TreeNode {
@@ -45,4 +48,49 @@ public class Solution {
 		}
         return root;
     }
+
+	/**
+	 * 另一种更容易想到、时空复杂度更高的，简单写写：
+	 * 记录从根节点到每个节点的路径，然后比较前缀，找分叉。
+	 * 时间最坏O(n)
+	 * 空间最坏O(n)
+	 *
+	 * @param root
+	 * @param p
+	 * @param q
+	 * @return
+	 */
+	public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+		if (null == root) {
+			return null;
+		}
+		List<TreeNode> pPath = getPath(root, p);
+		List<TreeNode> qPath = getPath(root, q);
+
+		TreeNode ancestor = root;
+		for (int i = 0; i < pPath.size() && i <qPath.size(); i++) {
+			if (pPath.get(i) == qPath.get(i)) {
+				ancestor = pPath.get(i);
+				continue;
+			} else {
+				break;
+			}
+		}
+		return ancestor;
+	}
+
+	private List<TreeNode> getPath(TreeNode root, TreeNode target) {
+		List<TreeNode> path = new ArrayList<>();
+
+		while(target != root) {
+			path.add(root);
+			if (root.val > target.val) {
+				root = root.left;
+			} else if (root.val < target.val) {
+				root = root.right;
+			}
+		}
+		path.add(root);
+		return path;
+	}
 }
