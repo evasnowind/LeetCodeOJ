@@ -1,4 +1,4 @@
-package solution.offer_problem.p55_binary_tree_max_depth;
+package solution.offer_problem.p55_i_binary_tree_max_depth;
 
 /**
  * @author chenglong.yu
