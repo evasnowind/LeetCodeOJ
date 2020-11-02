@@ -1,5 +1,6 @@
 package solution.leetcode.lc_349_intersection_of_two_arrays;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,7 +14,9 @@ public class Solution {
 	 * 具体实现参见https://discuss.leetcode.com/topic/45685/three-java-solutions
 	 */
 	public int[] intersection(int[] nums1, int[] nums2) {
-		if(nums1 == null || nums2 == null || nums1.length == 0 || nums2.length == 0) return new int[0];
+		if(nums1 == null || nums2 == null || nums1.length == 0 || nums2.length == 0) {
+			return new int[0];
+		}
 		Set<Integer> interSet = new HashSet<Integer>();
 		Set<Integer> numsSet = new HashSet<Integer>();
 		for(int n:nums1){
@@ -31,4 +34,29 @@ public class Solution {
 		}
 		return res;
     }
+
+    public int[] intersection2(int[] nums1, int[] nums2) {
+		Arrays.sort(nums1);
+		Arrays.sort(nums2);
+		int len1 = nums1.length, len2 = nums2.length;
+		int[] intersaction = new int[len1 + len2];
+		int index = 0, index1 = 0, index2 = 0;
+		while(index1 < len1 && index2 < len2) {
+			int num1 = nums1[index1];
+			int num2 = nums2[index2];
+			if (num1 == num2) {
+				if (index == 0 || intersaction[index-1] != num1) {
+					//第0个元素不可能重复；否则就需要判断是否与前一个元素是否重复
+					intersaction[index++] = num1;
+				}
+				index1++;
+				index2++;
+			} else if (num1 < num2) {
+				index1++;
+			} else {
+				index2++;
+			}
+		}
+		return Arrays.copyOfRange(intersaction, 0, index);
+	}
 }
