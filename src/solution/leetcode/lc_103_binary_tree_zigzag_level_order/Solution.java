@@ -1,6 +1,7 @@
 package solution.leetcode.lc_103_binary_tree_zigzag_level_order;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -26,7 +27,10 @@ public class Solution {
      */
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
-        if (null == root) return result;
+        if (null == root) {
+            return result;
+        }
+
         boolean isOdd = true;//奇数
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(root);
@@ -40,13 +44,65 @@ public class Solution {
                 } else {
                     levelList.add(0, tn.val);
                 }
-                if (null != tn.left) queue.add(tn.left);
-                if (null != tn.right) queue.add(tn.right);
+                if (null != tn.left) {
+                    queue.add(tn.left);
+                }
+                if (null != tn.right) {
+                    queue.add(tn.right);
+                }
                 tn = queue.remove();
             }
             isOdd = isOdd ? false : true;
             result.add(levelList);
         }
         return result;
+    }
+
+
+
+    /**
+     * 本题还是按层遍历，只不过稍微加了点变化。
+     * 按锯齿形，或者说按之字形按层遍历。
+     * 不过是在遍历每层的时候，对当前层的前后顺序做了点小变换。
+     * 那直接在拿到当前层时，判断一下是从左往右，还是从右往左即可。
+     *
+     * @param root
+     * @return
+     */
+    public List<List<Integer>> zigzagLevelOrder2(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (null == root) {
+            return res;
+        }
+
+        boolean flag = false;
+
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int len = queue.size();
+            LinkedList<Integer> curLevel = new LinkedList<>();
+            for (int i = 0; i < len; i++) {
+                TreeNode node = queue.poll();
+
+                if (!flag) {
+                    curLevel.add(node.val);
+                } else {
+                    curLevel.addFirst(node.val);
+                }
+
+                if (null != node.left) {
+                    queue.offer(node.left);
+                }
+                if (null != node.right) {
+                    queue.offer(node.right);
+                }
+            }
+
+            flag = !flag;
+            res.add(curLevel);
+        }
+
+        return res;
     }
 }
