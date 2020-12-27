@@ -1,5 +1,8 @@
 package solution.leetcode.lc_205_isomorphic_string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Solution {
 	/*
 	 * 分析：简单思路，直接创建一个hashmap，同时遍历两个字符串，获得映射关系
@@ -29,4 +32,49 @@ public class Solution {
 		}
 		return true;
     }
+
+	public boolean isIsomorphic2(String s, String t) {
+		if (null == s || s.length() == 0) {
+			return true;
+		}
+		char[] ch1 = s.toCharArray();
+		char[] ch2 = t.toCharArray();
+
+		Map<Character, Character> map = new HashMap<>();
+
+		for (int i = 0; i < ch1.length; i++) {
+			if (map.containsKey(ch1[i])) {
+				char val = map.get(ch1[i]);
+				if (val != ch2[i]) {
+					return false;
+				} else {
+					continue;
+				}
+			} else if (map.containsValue(ch2[i])) {
+                /*
+                在第一步if 判断map中key是否存在映射关系后，
+                还需要判断value中已经有映射到ch2[i]的映射关系。
+                如果有，那么说明之前已经出现过一个字符映射到
+                ch2[i]，而现在又有一个新的字符映射到ch2[i]。
+                那么也应该返回false
+                 */
+				return false;
+			} else {
+				map.put(ch1[i], ch2[i]);
+			}
+		}
+
+		return true;
+	}
+
+
+	public static void main(String[] args) {
+		Solution s = new Solution();
+
+		System.out.println(s.isIsomorphic("egg", "add"));
+		System.out.println(s.isIsomorphic("foo", "bar"));
+		System.out.println(s.isIsomorphic("paper", "title"));
+		System.out.println(s.isIsomorphic("ab", "aa"));
+
+	}
 }
