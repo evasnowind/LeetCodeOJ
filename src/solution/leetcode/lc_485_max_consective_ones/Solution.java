@@ -42,4 +42,28 @@ public class Solution {
 		Solution s = new Solution();
 		s.findMaxConsecutiveOnes(a);
 	}
+
+
+	public int findMaxConsecutiveOnes2(int[] nums) {
+
+		if (null == nums || nums.length == 0) {
+			return 0;
+		}
+
+		int maxCnt = 0;
+		int start = 0;
+		int i = 0;
+		while(i < nums.length) {
+			if (nums[i] == 1) {
+				start = i;
+				while(i < nums.length && nums[i] == 1) {
+					i++;
+				}
+				maxCnt = Math.max(maxCnt, i - start);
+			}
+			i++;
+		}
+
+		return maxCnt;
+	}
 }
