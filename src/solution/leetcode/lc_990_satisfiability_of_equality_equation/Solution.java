@@ -14,12 +14,20 @@ public class Solution {
         init(root, ranks, charArrLen);
 
         for (String str : equations) {
+            /*
+            找到a==b这种方程式，将所有能合并的合并到一起，
+            这样一个连通分量代表这些变量都相等。
+             */
             if (str.charAt(1) == '=') {
                 union(root, ranks, str.charAt(0) - 'a', str.charAt(3) - 'a');
             }
         }
 
         for (String str : equations) {
+            /*
+            接下来再查找a!=b这种方程式，如果a在并查集中、并且b也在并查集中，
+            说明a==b和a!=b都出现了，是矛盾的，直接返回
+             */
             if (str.charAt(1) == '!' && findRoot(root, str.charAt(0) - 'a') == findRoot(root, str.charAt(3) - 'a')) {
                 return false;
             }
@@ -51,6 +59,10 @@ public class Solution {
             return;
         }
 
+        /*
+        此处采用通过记录每个节点的节点个数，来平衡树的高度，
+        平衡后可以将树的高度尽量控制在O(logN)
+         */
         int xRank = ranks[xRoot];
         int yRank = ranks[yRoot];
         if (xRank < yRank) {
