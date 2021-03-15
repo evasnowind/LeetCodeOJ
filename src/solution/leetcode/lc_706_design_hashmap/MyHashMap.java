@@ -1,10 +1,7 @@
 package solution.leetcode.lc_706_design_hashmap;
 
-import java.io.PipedInputStream;
-import java.sql.ClientInfoStatus;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @author chenglong.yu
@@ -12,19 +9,21 @@ import java.util.List;
  */
 public class MyHashMap {
 
-
-
     private static final int BASE = 769;
 
     private LinkedList<Pair>[] data;
 
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public MyHashMap() {
         data = new LinkedList[BASE];
     }
 
-    /** value will always be non-negative. */
+    /**
+     * value will always be non-negative.
+     */
     public void put(int key, int value) {
         int hash = hash(key);
 
@@ -47,7 +46,9 @@ public class MyHashMap {
         list.offerLast(new Pair(key, value));
     }
 
-    /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
+    /**
+     * Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
+     */
     public int get(int key) {
         int hash = hash(key);
         if (null == data[hash]) {
@@ -66,7 +67,9 @@ public class MyHashMap {
         return -1;
     }
 
-    /** Removes the mapping of the specified value key if this map contains a mapping for the key */
+    /**
+     * Removes the mapping of the specified value key if this map contains a mapping for the key
+     */
     public void remove(int key) {
         int hash = hash(key);
         LinkedList<Pair> list = data[hash];
@@ -87,6 +90,7 @@ public class MyHashMap {
         return key % BASE;
     }
 }
+
 class Pair {
     int key;
     int value;
